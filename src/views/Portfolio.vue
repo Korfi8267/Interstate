@@ -1,5 +1,5 @@
 <template>
-<div class="w-screen h-screen bg-blue-400 dark:bg-slate-900 overflow-auto touch-pan-y">
+<div class="w-screen h-screen bg-white dark:bg-slate-900 overflow-auto touch-pan-y">
   
 <PortfolioHeader/> 
 <div class="my-16"></div>
@@ -22,7 +22,7 @@
   import PortfolioHeader from '../components/PortfolioHeader.vue'
   
   export default {
-    name: 'App',
+    name: 'PortfolioHeader',
     components: {
       PortfolioHeader
     }
