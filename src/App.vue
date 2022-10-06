@@ -59,7 +59,7 @@
   import HomeHeader from './components/HomeHeader.vue'
   
   export default {
-    name: 'HomeHeader',
+    name: 'app',
     components: {
       HomeHeader
     }

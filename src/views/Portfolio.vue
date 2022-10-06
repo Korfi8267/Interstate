@@ -22,7 +22,7 @@
   import PortfolioHeader from '../components/PortfolioHeader.vue'
   
   export default {
-    name: 'PortfolioHeader',
+    name: 'app',
     components: {
       PortfolioHeader
     }

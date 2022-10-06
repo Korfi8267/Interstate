@@ -21,7 +21,7 @@
   import PackagesHeader from '../components/PackagesHeader.vue'
   
   export default {
-    name: 'PackagesHeader',
+    name: 'app',
     components: {
       PackagesHeader
     }
