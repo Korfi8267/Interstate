@@ -12,6 +12,26 @@
   <span class="text-xl font-medium text-black dark:text-white">This page isn't done yet. Check back later.</span>
 </div><br/>
 
+<div class="my-16"></div>
+
+<div class="text-center font-regular text-blue-600 dark:text-blue-300">
+  <span class="text-2xl">Carousel Here!</span><br/><span class="text-xl text-slate-500 dark:text-white">Showcases featured items.</span>
+</div>
+
+<div class="my-16"></div>
+
+<div class="text-center font-regular text-blue-600 dark:text-blue-300">
+  <span class="text-2xl">Item here!</span><br/><span class="text-xl text-slate-500 dark:text-white">Likely to be the latest item to show.</span>
+</div>
+
+<div class="my-16"></div>
+
+<div class="text-center font-regular text-blue-600 dark:text-blue-300">
+  <span class="text-2xl">Grid here!</span><br/><span class="text-xl text-slate-500 dark:text-white">Older items likely sorted by date or type.</span>
+</div>
+
+<div class="my-16"></div>
+
 <div class="text-center font-regular text-blue-600 dark:text-blue-300">
   <span class="text-lg">Designed by <a class="font-medium text-slate-500 dark:text-white">Korfi</a> in Oklahoma</span>
 </div>
