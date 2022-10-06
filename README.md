@@ -1,7 +1,7 @@
 # The Interstate
 
 ### About
-This is a personal website I'm currently developing with Vue + Tailwind. I plan to upload it at smoe point but if you'd like you can take a sneak peak here. I plan to add a portfolio containing a selection of photographs I've taken, as well as concepts I've designed. I may also include a separate packages page for iOffice to be available at.
+This is a personal website I'm currently developing with Vue + Tailwind. I plan to upload it at some point but if you'd like you can take a sneak peak here. I plan to add a portfolio containing a selection of photographs I've taken, as well as concepts I've designed. I may also include a separate packages page for iOffice to be available at.
 
 ### Features
 As of now, I do not have much implemented into this website. So, unless you like reading, it isn't all too impressive. The only functional area is the navbar at the top, and it's ONLY functional if it isn't in its mobile mode... thing.
