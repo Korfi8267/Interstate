@@ -1,24 +1,7 @@
-# hello-world
+# The Interstate
 
-## Project setup
-```
-npm install
-```
+## About
+This is a personal website I'm currently developing with Vue + Tailwind. I plan to upload it at smoe point but if you'd like you can take a sneak peak here. I plan to add a portfolio containing a selection of photographs I've taken, as well as concepts I've designed. I may also include a separate packages page for iOffice to be available at.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Wrapping Up
+If you want to keep up with development, bookmark this website. I'll regularly (not really) update this repo with the latest changes I've made.
