@@ -3,8 +3,15 @@
 ### About
 This is a personal website I'm currently developing with Vue + Tailwind. I plan to upload it at some point but if you'd like you can take a sneak peak here. I plan to add a portfolio containing a selection of photographs I've taken, as well as concepts I've designed. I may also include a separate packages page for iOffice to be available at.
 
-### Features
-As of now, I do not have much implemented into this website. So, unless you like reading, it isn't all too impressive. The only functional area is the navbar at the top, and it's ONLY functional if it isn't in its mobile mode... thing.
+## Features
+### Home
+The Home page features a basic set of information regarding who I am, my work, and my plans. It also contains buttons to view my work (Portfolio) and to contact me (not functional yet).
+
+### Portflio (unfinished)
+The Portfolio page includes things I'm notably known for, such as iOffice. It'll have a carousel at the top showcasing a few featured items, and below will be a grid of older announcements and/or designs.
+
+### Packages (unfinished)
+The Packages page will be a bit small, really only hosting iOffice and perhaps a collage of images I've taken. As I make more projects or collages, they will show up here for download.
 
 ## Known Issues
 ### Mobile NavBar being nonfunctional
