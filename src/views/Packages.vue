@@ -1,7 +1,8 @@
 <template>
-<div class="w-screen h-screen bg-white dark:bg-slate-900 overflow-auto touch-pan-y">
-<PackagesHeader/>
-<div class="my-16"></div>
+<NavHeader/> 
+<div class="w-screen h-screen bg-white dark:bg-slate-900 overflow-auto scroll-smooth touch-pan-y">
+
+  <div class="my-16"></div>
 
 <div class="text-center">
   <img class="mx-auto align-center rounded-full w-32 h-32 transition ease-in-out bg-blue-100 hover:bg-blue-200 dark:bg-blue-900 dark:hover:bg-blue-800" src="../assets/mii2.png" />
@@ -18,12 +19,12 @@
 </div>
 </template>
 <script>
-  import PackagesHeader from '../components/PackagesHeader.vue'
+  import NavHeader from '../components/NavHeader.vue'
   
   export default {
     name: 'app',
     components: {
-      PackagesHeader
+      NavHeader
     }
   }
   </script>

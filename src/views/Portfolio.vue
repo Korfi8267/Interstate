@@ -1,7 +1,6 @@
 <template>
-<div class="w-screen h-screen bg-white dark:bg-slate-900 overflow-auto touch-pan-y">
-  
-<PortfolioHeader/> 
+  <NavHeader/> 
+<div class="w-screen h-screen bg-white dark:bg-slate-900 overflow-auto scroll-smooth touch-pan-y">
 <div class="my-16"></div>
 
 <div class="text-center">
@@ -39,12 +38,12 @@
 </div>
 </template>
 <script>
-  import PortfolioHeader from '../components/PortfolioHeader.vue'
+  import NavHeader from '../components/NavHeader.vue'
   
   export default {
     name: 'app',
     components: {
-      PortfolioHeader
+      NavHeader
     }
   }
   </script>

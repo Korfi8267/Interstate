@@ -1,7 +1,6 @@
 <template>
-<div class="w-screen h-screen bg-white dark:bg-slate-900 overflow-auto scroll-smooth">
-
-<HomeHeader/>
+  <NavHeader/> 
+<div class="w-screen h-screen bg-white dark:bg-slate-900 overflow-y-scroll scroll-smooth">
 <div class="my-16"></div>
 
 <div class="text-center">
@@ -24,7 +23,6 @@
 </div><br/>
 
 <div class="my-12"></div>
-
 
 <div class="justify-center px-6 flex flex-row flex-wrap gap-6">
   <div class="box-border h-50 w-96 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8 overflow-auto">
@@ -56,12 +54,12 @@
 </template>
 
 <script>
-  import HomeHeader from './components/HomeHeader.vue'
+  import NavHeader from './components/NavHeader.vue'
   
   export default {
     name: 'app',
     components: {
-      HomeHeader
+      NavHeader
     }
   }
   </script>
