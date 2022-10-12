@@ -17,7 +17,7 @@
   </div>
 
   <div class="box-border h-10 w-40 transition ease-in-out delay-50 hover:scale-105 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 hover:shadow-lg rounded-md">
-    <button class="transition ease-in-out delay-50 text-black dark:text-white hover:text-blue-600 dark:hover:text-blue-300 mx-auto px-5 h-10 w-40">Contact Me</button>
+    <button class="transition ease-in-out delay-50 text-black dark:text-white hover:text-blue-600 dark:hover:text-blue-300 mx-auto px-5 h-10 w-40"><router-link to="/Contact">Contact Me</router-link></button>
   </div>
 </div><br/>
 
