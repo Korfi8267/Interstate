@@ -20,7 +20,7 @@ The Contact page will host ways you can find me, such as my twitter, my discord,
 ### Mobile NavBar being nonfunctional
 This is nonfunctional as it has not been coded in yet. I don't plan on working on it anytime soon, as I want to get the actual pages done before worrying about making a mobile version. 
 
-### View My Work & Contact Me buttons nonfunctional
+### Contact Me button nonfunctional
 This is intentional for the time being as I'm focusing on completing the other pages. View My Work would be a redirect to Portfolio, and Contact Me would be a list of ways you can, well, contact me.
 
 ## Wrapping Up
