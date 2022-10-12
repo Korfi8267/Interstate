@@ -5,7 +5,7 @@ This is a personal website I'm currently developing with Vue + Tailwind. I plan 
 
 ## Features
 ### Home
-The Home page features a basic set of information regarding who I am, my work, and my plans. It also contains buttons to view my work (Portfolio) and to contact me (not functional yet).
+The Home page features a basic set of information regarding who I am, my work, and my plans. It also contains buttons to view my work and to contact me.
 
 ### Portflio (unfinished)
 The Portfolio page includes things I'm notably known for, such as iOffice. It'll have a carousel at the top showcasing a few featured items, and below will be a grid of older announcements and/or designs.
@@ -19,9 +19,6 @@ The Contact page will host ways you can find me, such as my twitter, my discord,
 ## Known Issues
 ### Mobile NavBar being nonfunctional
 This is nonfunctional as it has not been coded in yet. I don't plan on working on it anytime soon, as I want to get the actual pages done before worrying about making a mobile version. 
-
-### Contact Me button nonfunctional
-This is intentional for the time being as I'm focusing on completing the other pages. View My Work would be a redirect to Portfolio, and Contact Me would be a list of ways you can, well, contact me.
 
 ## Wrapping Up
 If you want to keep up with development, bookmark this website. I'll regularly (not really) update this repo with the latest changes I've made. No release date planned. I want to take my time on it.
