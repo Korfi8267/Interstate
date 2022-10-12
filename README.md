@@ -17,8 +17,8 @@ The Packages page will be a bit small, really only hosting iOffice and perhaps a
 ### Mobile NavBar being nonfunctional
 This is nonfunctional as it has not been coded in yet. I don't plan on working on it anytime soon, as I want to get the actual pages done before worrying about making a mobile version. 
 
-### Home Page rendered under contents of Packages/Portfolio
-Not exactly sure what caused this. I believe it MAY have started when I made one header for each page? I've been trying to find it for a while but to no avail. If you have any suggestions please let me know, and I'd be more than happy to try them.
+### View My Work & Contact Me buttons nonfunctional
+This is intentional for the time being as I'm focusing on completing the other pages. View My Work would be a redirect to Portfolio, and Contact Me would be a list of ways you can, well, contact me.
 
 ## Wrapping Up
 If you want to keep up with development, bookmark this website. I'll regularly (not really) update this repo with the latest changes I've made. No release date planned. I want to take my time on it.
