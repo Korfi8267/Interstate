@@ -19,7 +19,8 @@
         <a v-show="$route.name=='Portfolio'" class="hidden sm:block transition ease-in-out delay-50 hover:scale-105 font-medium text-blue-600 dark:text-blue-400"><router-link to="/Portfolio">Portfolio</router-link></a>
       <a v-show="$route.name!=='Packages'" class="hidden sm:block transition ease-in-out delay-50 hover:scale-105 font-medium text-slate-500 hover:text-gray-900 dark:hover:text-blue-200"><router-link to="/Packages">Packages</router-link></a>
         <a v-show="$route.name=='Packages'" class="hidden sm:block transition ease-in-out delay-50 hover:scale-105 font-medium text-blue-600 dark:text-blue-400"><router-link to="/Packages">Packages</router-link></a>
-
+      <a v-show="$route.name!=='Contact'" class="hidden sm:block transition ease-in-out delay-50 hover:scale-105 font-medium text-slate-500 hover:text-gray-900 dark:hover:text-blue-200"><router-link to="/Contact">Contact</router-link></a>
+        <a v-show="$route.name=='Contact'" class="hidden sm:block transition ease-in-out delay-50 hover:scale-105 font-medium text-blue-600 dark:text-blue-400"><router-link to="/Contact">Contact</router-link></a>
     </div>
   </div>
 </nav>
