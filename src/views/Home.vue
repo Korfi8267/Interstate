@@ -1,5 +1,5 @@
 <template>
-<div class="w-screen h-screen bg-white dark:bg-slate-900 overflow-y-scroll scroll-smooth">
+<div class="w-screen h-screen bg-white dark:bg-slate-900 overflow-auto scroll-smooth">
 <div class="my-16"></div>
 
 <div class="text-center">
@@ -13,7 +13,7 @@
 
 <div class="justify-center px-6 flex flex-row flex-wrap gap-6">
   <div class="box-border h-10 w-40 transition ease-in-out delay-50 hover:scale-105 bg-blue-600 dark:bg-blue-800 hover:bg-blue-800 dark:hover:bg-blue-600 hover:shadow-lg rounded-md">
-    <button class="transition ease-in-out delay-50 text-white mx-auto px-5 h-10 w-40">View my work</button>
+    <button class="transition ease-in-out delay-50 text-white mx-auto px-5 h-10 w-40"><router-link to="/Portfolio">View my work</router-link></button>
   </div>
 
   <div class="box-border h-10 w-40 transition ease-in-out delay-50 hover:scale-105 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 hover:shadow-lg rounded-md">
