@@ -1,5 +1,4 @@
 <template>
-<router-view/>
 <nav class="bg-gray-100 dark:bg-slate-800 shadow-md sticky top-0">
   <div class="max-w-7xl mx-auto px-2">
     <div class="justify-left items-center p-5 gap-8 flex flex-row">
