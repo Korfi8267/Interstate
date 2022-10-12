@@ -13,6 +13,9 @@ The Portfolio page includes things I'm notably known for, such as iOffice. It'll
 ### Packages (unfinished)
 The Packages page will be a bit small, really only hosting iOffice and perhaps a collage of images I've taken. As I make more projects or collages, they will show up here for download.
 
+### Contact (unfinished)
+The Contact page will host ways you can find me, such as my twitter, my discord, and more. It will also include my profile icon for funsies.
+
 ## Known Issues
 ### Mobile NavBar being nonfunctional
 This is nonfunctional as it has not been coded in yet. I don't plan on working on it anytime soon, as I want to get the actual pages done before worrying about making a mobile version. 
