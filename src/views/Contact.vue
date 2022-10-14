@@ -33,23 +33,35 @@
 
   </div>
 </div>
-<br/>
+<div class="my-12"></div>
 <div class="justify-center px-6 flex flex-col items-center xl:flex-row flex-wrap gap-6">
   <div class="box-border h-50 w-96 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8 overflow-auto">
-    <span class="inline-block font-semibold text-black dark:text-white text-xl align-middle">About Me</span><br/>
-    <span class="inline-block font-regular text-gray-500 dark:text-gray-400 text-lg">I am a self-taught graphical designer and photographer. My favorite hobbies include stargazing and playing video games of all kinds.</span>
+    <span class="inline-block font-semibold text-black dark:text-white text-xl align-middle">Discord</span><br/>
+    <span class="inline-block font-regular text-gray-500 dark:text-gray-400 text-lg">Albiet a bit dead, it's be a place for updates regarding my projects. If you want to chat it up, feel free to. It could use the activity.</span>
   </div>
 
   <div class="box-border h-50 w-96 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8 overflow-auto">
-    <span class="inline-block font-semibold text-black dark:text-white text-xl align-middle">My Work</span><br/>
-    <span class="inline-block font-regular text-gray-500 dark:text-gray-400 text-lg">My work ranges from software designs such as Ontario, to icon packs such as iOffice, to a variety of photos I take on my adventures.</span>
+    <span class="inline-block font-semibold text-black dark:text-white text-xl align-middle">Github</span><br/>
+    <span class="inline-block font-regular text-gray-500 dark:text-gray-400 text-lg">Projects such as my website can be found here. I regularly-ish update it, so if you have an issue go here and create one for me to check out.</span>
   </div>
 
   <div class="box-border h-50 w-96 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">
-    <span class="inline-block font-semibold text-black dark:text-white text-xl align-middle">My Plans</span><br/>
-    <span class="inline-block font-regular text-gray-500 dark:text-gray-400 text-lg">I plan to go to school for two years part-time in a Multimedia class, where I will learn more about graphical design, web design & photography.</span>
+    <span class="inline-block font-semibold text-black dark:text-white text-xl align-middle">Twitter</span><br/>
+    <span class="inline-block font-regular text-gray-500 dark:text-gray-400 text-lg">My twitter is primarily a personal account. Every now and then I do show off things I'm working on. Don't expect too many project-related tweets here.</span>
+  </div>
+</div><br/>
+
+<div class="my-1"></div>
+<div class="justify-center px-6 flex flex-col items-center xl:flex-row flex-wrap gap-6">
+  <div class="box-border p-8 overflow-auto">
+    <span class="inline-block font-medium text-gray-600 dark:text-white text-lg align-middle">Psst...</span><br/>
+    <span class="inline-block font-regular text-gray-400 dark:text-gray-400 text-md">I'm an affiliate member of M.B.S. If you want to join, click <a href="https://www.google.com" class="text-blue-500">here</a>.</span>
   </div>
 </div>
+
+<div class="text-center font-regular text-blue-600 dark:text-blue-300">
+  <span class="text-lg">Designed by <a class="font-medium text-slate-500 dark:text-white">Korfi</a> in Oklahoma</span>
+</div><br/>
 
 </div>
 </template>
