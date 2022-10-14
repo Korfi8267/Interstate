@@ -3,6 +3,8 @@
 <div class="my-16"></div>
 
 <div class="text-center">
+  <img class="mx-auto align-center rounded-full w-32 h-32 transition ease-in-out delay-50 bg-blue-100 hover:bg-blue-200 dark:bg-blue-900 dark:hover:bg-blue-800" src="../assets/mii2.png" />
+  <div class="my-5"></div>
   <span class="text-5xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Contact</span>
   <div class="my-4"></div>
   <span class="text-xl font-medium text-black dark:text-white">View a few ways you can contact me here.</span>
@@ -33,7 +35,7 @@
 
   </div>
 </div>
-<div class="my-12"></div>
+<div class="my-14"></div>
 <div class="justify-center px-6 flex flex-col items-center xl:flex-row flex-wrap gap-6">
   <div class="box-border h-50 w-96 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8 overflow-auto">
     <span class="inline-block font-semibold text-black dark:text-white text-xl align-middle">Discord</span><br/>
