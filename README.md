@@ -14,11 +14,14 @@ The Portfolio page includes things I'm notably known for, such as iOffice. It'll
 The Packages page will be a bit small, really only hosting iOffice and perhaps a collage of images I've taken. As I make more projects or collages, they will show up here for download.
 
 ### Contact
-The Contact page will host a few ways where you can find me, as well as info for each method describing the purpose of each. Depending on what you want do do, please choose wisely.
+The Contact page hosts a few ways where you can find me, as well as info for each method describing the purpose of each. Depending on what you want do do, please choose wisely.
 
 ## Known Issues
 ### Mobile NavBar being nonfunctional
 This is nonfunctional as it has not been coded in yet. I don't plan on working on it anytime soon, as I want to get the actual pages done before worrying about making a mobile version. 
+
+### M.B.S. link nonfunctional
+This is intentional, as I want to wait until the site is essentially complete before adding an invite to a server which I do not own. I believe this is the best option, as I want to play it safe.
 
 ## Wrapping Up
 If you want to keep up with development, bookmark this website. I'll regularly (not really) update this repo with the latest changes I've made. No release date planned. I want to take my time on it.
