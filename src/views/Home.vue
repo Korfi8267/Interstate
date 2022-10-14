@@ -23,7 +23,7 @@
 
 <div class="my-12"></div>
 
-<div class="justify-center px-6 flex flex-row flex-wrap gap-6">
+<div class="justify-center px-6 flex flex-col items-center xl:flex-row flex-wrap gap-6">
   <div class="box-border h-50 w-96 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8 overflow-auto">
     <span class="inline-block font-semibold text-black dark:text-white text-xl align-middle">About Me</span><br/>
     <span class="inline-block font-regular text-gray-500 dark:text-gray-400 text-lg">I am a self-taught graphical designer and photographer. My favorite hobbies include stargazing and playing video games of all kinds.</span>
