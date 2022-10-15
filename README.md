@@ -17,9 +17,6 @@ The Packages page will be a bit small, really only hosting iOffice and perhaps a
 The Contact page hosts a few ways where you can find me, as well as info for each method describing the purpose of each. Depending on what you want do do, please choose wisely.
 
 ## Known Issues
-### Mobile NavBar being nonfunctional
-This is nonfunctional as it has not been coded in yet. I don't plan on working on it anytime soon, as I want to get the actual pages done before worrying about making a mobile version. 
-
 ### M.B.S. link nonfunctional
 This is intentional, as I want to wait until the site is essentially complete before adding an invite to a server which I do not own. I believe this is the best option, as I want to play it safe.
 
