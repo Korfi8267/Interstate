@@ -1,12 +1,9 @@
 <template>
-<nav class="bg-gray-100 dark:bg-slate-800 sticky top-0">
+<nav class="sm:hidden bg-gray-100 dark:bg-slate-800 sticky top-0">
   <div class="max-w-7xl mx-auto px-2">
-    <div class="justify-left items-center p-5 gap-8 flex flex-row">
-      <img class="rounded-full w-8 h-8" src="../assets/mii2.png" />
-      <a class="hidden sm:block font-semibold text-2xl text-slate-800 dark:text-white">Interstate</a>
-
+    <div class="justify-center items-center p-5 gap-8 flex flex-row">
+      <img class="justify-left rounded-full w-8 h-8" src="../assets/mii2.png" />
         <!-- Mobile NavBar Buttons -->
-
 
         <!-- Home -->
         <button class="sm:hidden transition ease-in-out delay-50 hover:scale-105">
@@ -71,24 +68,34 @@
           </svg>
           </router-link></a>
         </button>
+      </div>
+    </div>
+</nav>
+
+<nav class="hidden sm:block bg-gray-100 dark:bg-slate-800 sticky top-0">
+  <div class="max-w-7xl mx-auto px-2">
+    <div class="justify-left items-center p-5 gap-8 flex flex-row">
+      <img class="rounded-full w-8 h-8" src="../assets/mii2.png" />
+      <a class="font-semibold text-2xl text-slate-800 dark:text-white">Interstate</a>
+
 
     <!-- Desktop NavBar Buttons -->
 
       <!-- Home -->
-      <a v-show="$route.name!=='Home'" class="hidden sm:block transition ease-in-out delay-50 hover:scale-105 font-semibold text-slate-500 hover:text-gray-900 dark:hover:text-blue-200"><router-link to="/">Home</router-link></a>
-        <a v-show="$route.name=='Home'" class="hidden sm:block transition ease-in-out delay-50 hover:scale-105 font-semibold text-blue-600 dark:text-blue-400"><router-link to="/">Home</router-link></a>
+      <a v-show="$route.name!=='Home'" class="transition ease-in-out delay-50 hover:scale-105 font-semibold text-slate-500 hover:text-gray-900 dark:hover:text-blue-200"><router-link to="/">Home</router-link></a>
+        <a v-show="$route.name=='Home'" class="transition ease-in-out delay-50 hover:scale-105 font-semibold text-blue-600 dark:text-blue-400"><router-link to="/">Home</router-link></a>
       
       <!-- Portfolio -->
-      <a v-show="$route.name!=='Portfolio'" class="hidden sm:block transition ease-in-out delay-50 hover:scale-105 font-medium text-slate-500 hover:text-gray-900 dark:hover:text-blue-200"><router-link to="/Portfolio">Portfolio</router-link></a>
-        <a v-show="$route.name=='Portfolio'" class="hidden sm:block transition ease-in-out delay-50 hover:scale-105 font-medium text-blue-600 dark:text-blue-400"><router-link to="/Portfolio">Portfolio</router-link></a>
+      <a v-show="$route.name!=='Portfolio'" class="transition ease-in-out delay-50 hover:scale-105 font-medium text-slate-500 hover:text-gray-900 dark:hover:text-blue-200"><router-link to="/Portfolio">Portfolio</router-link></a>
+        <a v-show="$route.name=='Portfolio'" class="transition ease-in-out delay-50 hover:scale-105 font-medium text-blue-600 dark:text-blue-400"><router-link to="/Portfolio">Portfolio</router-link></a>
       
       <!-- Packages -->
-      <a v-show="$route.name!=='Packages'" class="hidden sm:block transition ease-in-out delay-50 hover:scale-105 font-medium text-slate-500 hover:text-gray-900 dark:hover:text-blue-200"><router-link to="/Packages">Packages</router-link></a>
-        <a v-show="$route.name=='Packages'" class="hidden sm:block transition ease-in-out delay-50 hover:scale-105 font-medium text-blue-600 dark:text-blue-400"><router-link to="/Packages">Packages</router-link></a>
+      <a v-show="$route.name!=='Packages'" class="transition ease-in-out delay-50 hover:scale-105 font-medium text-slate-500 hover:text-gray-900 dark:hover:text-blue-200"><router-link to="/Packages">Packages</router-link></a>
+        <a v-show="$route.name=='Packages'" class="transition ease-in-out delay-50 hover:scale-105 font-medium text-blue-600 dark:text-blue-400"><router-link to="/Packages">Packages</router-link></a>
       
       <!-- Contact -->
-      <a v-show="$route.name!=='Contact'" class="hidden sm:block transition ease-in-out delay-50 hover:scale-105 font-medium text-slate-500 hover:text-gray-900 dark:hover:text-blue-200"><router-link to="/Contact">Contact</router-link></a>
-        <a v-show="$route.name=='Contact'" class="hidden sm:block transition ease-in-out delay-50 hover:scale-105 font-medium text-blue-600 dark:text-blue-400"><router-link to="/Contact">Contact</router-link></a>
+      <a v-show="$route.name!=='Contact'" class="transition ease-in-out delay-50 hover:scale-105 font-medium text-slate-500 hover:text-gray-900 dark:hover:text-blue-200"><router-link to="/Contact">Contact</router-link></a>
+        <a v-show="$route.name=='Contact'" class="transition ease-in-out delay-50 hover:scale-105 font-medium text-blue-600 dark:text-blue-400"><router-link to="/Contact">Contact</router-link></a>
     </div>
   </div>
 </nav>
