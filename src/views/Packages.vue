@@ -1,6 +1,6 @@
 <template>
-<div class="w-screen h-screen bg-white dark:bg-slate-900 overflow-auto scroll-smooth touch-pan-y">
-<div class="my-16"></div>
+<div class="w-screen h-screen overflow-auto scroll-smooth touch-pan-y">
+<div class="my-32"></div>
 
 <div class="text-center">
   <img class="mx-auto align-center rounded-full w-32 h-32 transition ease-in-out bg-blue-100 hover:bg-blue-200 dark:bg-blue-900 dark:hover:bg-blue-800" src="../assets/mii2.png" />
