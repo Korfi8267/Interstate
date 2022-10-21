@@ -21,7 +21,10 @@ The Contact page hosts a few ways where you can find me, as well as info for eac
 This is intentional, as I want to wait until the site is essentially complete before adding an invite to a server which I do not own. I believe this is the best option, as I want to play it safe.
 
 ### Portfolio page grid misaligned
-This is intentional, as the code for the grid is very, very barebones. I only added critical code for it to even appear at all. I plan to fix it up at some point though.
+I want to focus on finding a common design for each item in the grid before worrying about how each item is positioned in said grid. I plan to fix this at some point.
+
+### (possible) Buggy scrolling on iOS devices
+I believe this is caused by how iOS handles methods of refreshing a page. You can drag a page down to refresh it. If you stop mid-drag and release, and quickly try to scroll the contents of any page, it does not work. Hope to figure this out at some point.
 
 ## Wrapping Up
 If you want to keep up with development, bookmark this website. I'll regularly (not really) update this repo with the latest changes I've made. No release date planned. I want to take my time on it.
