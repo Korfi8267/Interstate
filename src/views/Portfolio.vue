@@ -1,6 +1,6 @@
 <template>
-<div class="w-screen h-screen bg-white dark:bg-slate-900 overflow-auto scroll-smooth touch-pan-y">
-<div class="my-16"></div>
+<div class="w-screen h-screen overflow-auto">
+<div class="my-32"></div>
 
 <div class="text-center">
   <img class="mx-auto align-center rounded-full w-32 h-32 transition ease-in-out delay-50 bg-blue-100 hover:bg-blue-200 dark:bg-blue-900 dark:hover:bg-blue-800" src="../assets/mii2.png" />
@@ -20,35 +20,137 @@
 <div class="my-16"></div>
 
 <!-- Latest Item -->
-<div class="flex flex-wrap flex-row justify-center gap-6 px-6">
-  <div class="box-border h-auto w-auto max-w-6xl rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8 overflow-auto">
+<div class="flex flex-col items-center xl:flex-col justify-center px-5">
+<div class="grow"></div>
+  <div class="flex-none box-border h-auto w-full max-w-6xl rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8 overflow-auto">
     <div class="flex flex-wrap flex-row justify-left gap-3">
       <span class="flex-none inline-block px-3 py-0.5 box-border h-auto w-auto rounded-full bg-red-500 text-md text-white font-semibold">Tag</span> 
-      <span class="grow sm:block inline-block font-semibold text-black dark:text-white text-xl">Title Header</span><br class="hidden sm:block">
-      <span class="hidden sm:block flex-none px-3 font-regular text-gray-500 dark:text-gray-400 text-xl">Date added</span>
+      <span class="grow inline-block font-semibold text-black dark:text-white text-xl">Title Header</span>
+      <span class="hidden md:block flex-none px-3 font-regular text-gray-500 dark:text-gray-400 text-xl">Date added</span>
     </div>
-  <div class="my-2"></div>
-    <span class="inline-block font-regular text-black dark:text-gray-400 text-lg">This box will host a new announcement regarding a project, such as a new theme or a concept. It'll showcase a custom tag, a title, the publication date, and a quick description.</span>
-  </div>
-</div><br/>
+    <div class="my-2"></div>
+      <span class="inline-block font-regular text-black dark:text-gray-400 text-lg">This box will host a new announcement regarding a project, such as a new theme or a concept. It'll showcase a custom tag, a title, the publication date, and a quick description.</span>
+    </div>
+    <div class="grow"></div>
+</div>
+<br/>
 
 <div class="my-16"></div>
 
 <!-- Item Grid -->
-<div class="grid grid-cols-3 grid-rows-4 gap-y-8 gap-x-10 px-6">
-  <div class="box-border h-auto w-24 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">01</div>
-  <div class="box-border h-auto w-24 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">02</div>
-  <div class="box-border h-auto w-24 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">03</div>
-  <div class="box-border h-auto w-24 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">04</div>
-  <div class="box-border h-auto w-24 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">05</div>
-  <div class="box-border h-auto w-24 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">06</div> 
-  <div class="box-border h-auto w-24 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">07</div> 
-  <div class="box-border h-auto w-24 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">08</div> 
-  <div class="box-border h-auto w-24 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">09</div> 
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 grid-rows-3 gap-x-10 gap-y-10 px-24 z-0 justify-items-center">
 
+  <div class="bg-[url('../assets/greengrass2.jpeg')] relative bg-cover bg-center text-left box-border h-64 w-64 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800">
+  <div class="absolute bottom-1 left-1 right-1 flex flex-row">
+    <span class="flex-none rounded-md py-1.5 px-3 bg-gray-700/50 text-white font-semibold backdrop-blur-sm">Green Grass</span>
+    <span class="grow"></span>
+    <div class="rounded-md py-1.5 px-2 flex-none transition ease-in-out delay-50 hover:scale-105 bg-gray-700/50 text-white backdrop-blur-sm hover:text-black hover:bg-white/50">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 h-5 mt-0.5">
+      <path fill="currentColor" d="M504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zM212 140v116h-70.9c-10.7 0-16.1 13-8.5 20.5l114.9 114.3c4.7 4.7 12.2 4.7 16.9 0l114.9-114.3c7.6-7.6 2.2-20.5-8.5-20.5H300V140c0-6.6-5.4-12-12-12h-64c-6.6 0-12 5.4-12 12z"/>
+      </svg>
+    </div>
+  </div>
 </div>
 
-<div class="my-16"></div>
+<div class="bg-[url('../assets/greengrass.jpeg')] relative bg-cover bg-center text-left box-border h-64 w-64 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800">
+  <div class="absolute bottom-1 left-1 right-1 flex flex-row">
+    <span class="flex-none rounded-md py-1.5 px-3 bg-gray-700/50 text-white font-semibold backdrop-blur-sm">Greener Grass</span>
+    <span class="grow"></span>
+    <div class="rounded-md py-1.5 px-2 flex-none transition ease-in-out delay-50 hover:scale-105 bg-gray-700/50 text-white backdrop-blur-sm hover:text-black hover:bg-white/50">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 h-5 mt-0.5">
+      <path fill="currentColor" d="M504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zM212 140v116h-70.9c-10.7 0-16.1 13-8.5 20.5l114.9 114.3c4.7 4.7 12.2 4.7 16.9 0l114.9-114.3c7.6-7.6 2.2-20.5-8.5-20.5H300V140c0-6.6-5.4-12-12-12h-64c-6.6 0-12 5.4-12 12z"/>
+      </svg>
+    </div>
+  </div>
+</div>
+
+<div class="bg-[url('../assets/sunset.jpeg')] relative bg-cover bg-center text-left box-border h-64 w-64 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800">
+  <div class="absolute bottom-1 left-1 right-1 flex flex-row">
+    <span class="flex-none rounded-md py-1.5 px-3 bg-gray-700/50 text-white font-semibold backdrop-blur-sm">Mountain Sunset</span>
+    <span class="grow"></span>
+    <div class="rounded-md py-1.5 px-2 flex-none transition ease-in-out delay-50 hover:scale-105 bg-gray-700/50 text-white backdrop-blur-sm hover:text-black hover:bg-white/50">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 h-5 mt-0.5">
+      <path fill="currentColor" d="M504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zM212 140v116h-70.9c-10.7 0-16.1 13-8.5 20.5l114.9 114.3c4.7 4.7 12.2 4.7 16.9 0l114.9-114.3c7.6-7.6 2.2-20.5-8.5-20.5H300V140c0-6.6-5.4-12-12-12h-64c-6.6 0-12 5.4-12 12z"/>
+      </svg>
+    </div>
+  </div>
+</div>
+
+<div class="bg-[url('../assets/sunset.jpeg')] relative bg-cover bg-center text-left box-border h-64 w-64 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800">
+  <div class="absolute bottom-1 left-1 right-1 flex flex-row">
+    <span class="flex-none rounded-md py-1.5 px-3 bg-gray-700/50 text-white font-semibold backdrop-blur-sm">Mountain Sunset</span>
+    <span class="grow"></span>
+    <div class="rounded-md py-1.5 px-2 flex-none transition ease-in-out delay-50 hover:scale-105 bg-gray-700/50 text-white backdrop-blur-sm hover:text-black hover:bg-white/50">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 h-5 mt-0.5">
+      <path fill="currentColor" d="M504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zM212 140v116h-70.9c-10.7 0-16.1 13-8.5 20.5l114.9 114.3c4.7 4.7 12.2 4.7 16.9 0l114.9-114.3c7.6-7.6 2.2-20.5-8.5-20.5H300V140c0-6.6-5.4-12-12-12h-64c-6.6 0-12 5.4-12 12z"/>
+      </svg>
+    </div>
+  </div>
+</div>
+
+<div class="bg-[url('../assets/greengrass2.jpeg')] relative bg-cover bg-center text-left box-border h-64 w-64 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800">
+  <div class="absolute bottom-1 left-1 right-1 flex flex-row">
+    <span class="flex-none rounded-md py-1.5 px-3 bg-gray-700/50 text-white font-semibold backdrop-blur-sm">Green Grass</span>
+    <span class="grow"></span>
+    <div class="rounded-md py-1.5 px-2 flex-none transition ease-in-out delay-50 hover:scale-105 bg-gray-700/50 text-white backdrop-blur-sm hover:text-black hover:bg-white/50">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 h-5 mt-0.5">
+      <path fill="currentColor" d="M504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zM212 140v116h-70.9c-10.7 0-16.1 13-8.5 20.5l114.9 114.3c4.7 4.7 12.2 4.7 16.9 0l114.9-114.3c7.6-7.6 2.2-20.5-8.5-20.5H300V140c0-6.6-5.4-12-12-12h-64c-6.6 0-12 5.4-12 12z"/>
+      </svg>
+    </div>
+  </div>
+</div>
+
+<div class="bg-[url('../assets/greengrass.jpeg')] relative bg-cover bg-center text-left box-border h-64 w-64 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800">
+  <div class="absolute bottom-1 left-1 right-1 flex flex-row">
+    <span class="flex-none rounded-md py-1.5 px-3 bg-gray-700/50 text-white font-semibold backdrop-blur-sm">Greener Grass</span>
+    <span class="grow"></span>
+    <div class="rounded-md py-1.5 px-2 flex-none transition ease-in-out delay-50 hover:scale-105 bg-gray-700/50 text-white backdrop-blur-sm hover:text-black hover:bg-white/50">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 h-5 mt-0.5">
+      <path fill="currentColor" d="M504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zM212 140v116h-70.9c-10.7 0-16.1 13-8.5 20.5l114.9 114.3c4.7 4.7 12.2 4.7 16.9 0l114.9-114.3c7.6-7.6 2.2-20.5-8.5-20.5H300V140c0-6.6-5.4-12-12-12h-64c-6.6 0-12 5.4-12 12z"/>
+      </svg>
+    </div>
+  </div>
+</div>
+
+<div class="bg-[url('../assets/greengrass.jpeg')] relative bg-cover bg-center text-left box-border h-64 w-64 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800">
+  <div class="absolute bottom-1 left-1 right-1 flex flex-row">
+    <span class="flex-none rounded-md py-1.5 px-3 bg-gray-700/50 text-white font-semibold backdrop-blur-sm">Greener Grass</span>
+    <span class="grow"></span>
+    <div class="rounded-md py-1.5 px-2 flex-none transition ease-in-out delay-50 hover:scale-105 bg-gray-700/50 text-white backdrop-blur-sm hover:text-black hover:bg-white/50">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 h-5 mt-0.5">
+      <path fill="currentColor" d="M504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zM212 140v116h-70.9c-10.7 0-16.1 13-8.5 20.5l114.9 114.3c4.7 4.7 12.2 4.7 16.9 0l114.9-114.3c7.6-7.6 2.2-20.5-8.5-20.5H300V140c0-6.6-5.4-12-12-12h-64c-6.6 0-12 5.4-12 12z"/>
+      </svg>
+    </div>
+  </div>
+</div>
+
+<div class="bg-[url('../assets/sunset.jpeg')] relative bg-cover bg-center text-left box-border h-64 w-64 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800">
+  <div class="absolute bottom-1 left-1 right-1 flex flex-row">
+    <span class="flex-none rounded-md py-1.5 px-3 bg-gray-700/50 text-white font-semibold backdrop-blur-sm">Mountain Sunset</span>
+    <span class="grow"></span>
+    <div class="rounded-md py-1.5 px-2 flex-none transition ease-in-out delay-50 hover:scale-105 bg-gray-700/50 text-white backdrop-blur-sm hover:text-black hover:bg-white/50">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 h-5 mt-0.5">
+      <path fill="currentColor" d="M504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zM212 140v116h-70.9c-10.7 0-16.1 13-8.5 20.5l114.9 114.3c4.7 4.7 12.2 4.7 16.9 0l114.9-114.3c7.6-7.6 2.2-20.5-8.5-20.5H300V140c0-6.6-5.4-12-12-12h-64c-6.6 0-12 5.4-12 12z"/>
+      </svg>
+    </div>
+  </div>
+</div>
+
+<div class="bg-[url('../assets/greengrass2.jpeg')] relative bg-cover bg-center text-left box-border h-64 w-64 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800">
+  <div class="absolute bottom-1 left-1 right-1 flex flex-row">
+    <span class="flex-none rounded-md py-1.5 px-3 bg-gray-700/50 text-white font-semibold backdrop-blur-sm">Green Grass</span>
+    <span class="grow"></span>
+    <div class="rounded-md py-1.5 px-2 flex-none transition ease-in-out delay-50 hover:scale-105 bg-gray-700/50 text-white backdrop-blur-sm hover:text-black hover:bg-white/50">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 h-5 mt-0.5">
+      <path fill="currentColor" d="M504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zM212 140v116h-70.9c-10.7 0-16.1 13-8.5 20.5l114.9 114.3c4.7 4.7 12.2 4.7 16.9 0l114.9-114.3c7.6-7.6 2.2-20.5-8.5-20.5H300V140c0-6.6-5.4-12-12-12h-64c-6.6 0-12 5.4-12 12z"/>
+      </svg>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="my-96"></div>
 
 <div class="text-center font-regular text-blue-600 dark:text-blue-300">
   <span class="text-lg">Designed by <a class="font-medium text-slate-500 dark:text-white">Korfi</a> in Oklahoma</span>
