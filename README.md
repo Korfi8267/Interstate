@@ -20,10 +20,7 @@ The Contact page hosts a few ways where you can find me, as well as info for eac
 ### M.B.S. link nonfunctional
 This is intentional, as I want to wait until the site is essentially complete before adding an invite to a server which I do not own. I believe this is the best option, as I want to play it safe.
 
-### Portfolio page grid misaligned
-I want to focus on finding a common design for each item in the grid before worrying about how each item is positioned in said grid. I plan to fix this at some point.
-
-### (possible) Buggy scrolling on iOS devices
+### Buggy scrolling on iOS devices
 I believe this is caused by how iOS handles methods of refreshing a page. You can drag a page down to refresh it. If you stop mid-drag and release, and quickly try to scroll the contents of any page, it does not work. Hope to figure this out at some point.
 
 ## Wrapping Up
