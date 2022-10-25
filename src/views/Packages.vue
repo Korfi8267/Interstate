@@ -5,7 +5,7 @@
 <!-- Latest Item -->
 <div class="flex justify-center px-5">
   <div class="h-auto w-[370px] sm:w-full md:max-w-[788px] lg:max-w-full lg:w-[788px] xl:w-[1158px] justify-left">
-    <span class="font-semibold text-black dark:text-white text-3xl">Announcments</span>
+    <span class="font-semibold text-black dark:text-white text-3xl">Announcements</span>
   </div>
 </div>
 <div class="my-4"></div>
