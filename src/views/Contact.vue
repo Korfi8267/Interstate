@@ -39,7 +39,7 @@
 <div class="justify-center px-6 flex flex-col items-center xl:flex-row flex-wrap gap-6">
   <div class="box-border h-50 w-96 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8 overflow-auto">
     <span class="inline-block font-semibold text-black dark:text-white text-xl align-middle">Discord</span><br/>
-    <span class="inline-block font-regular text-gray-500 dark:text-gray-400 text-lg">Albiet a bit dead, it's be a place for updates regarding my projects. If you want to chat it up, feel free to. It could use the activity.</span>
+    <span class="inline-block font-regular text-gray-500 dark:text-gray-400 text-lg">Albeit a bit dead, it's a place for updates regarding my projects. If you want to chat it up, feel free to. It could use the activity.</span>
   </div>
 
   <div class="box-border h-50 w-96 rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8 overflow-auto">
@@ -51,7 +51,7 @@
     <span class="inline-block font-semibold text-black dark:text-white text-xl align-middle">Twitter</span><br/>
     <span class="inline-block font-regular text-gray-500 dark:text-gray-400 text-lg">My twitter is primarily a personal account. Every now and then I do show off things I'm working on. Don't expect too many project-related tweets here.</span>
   </div>
-</div><br/>
+</div>
 
 <div class="my-1"></div>
 <div class="justify-center px-6 flex flex-col items-center xl:flex-row flex-wrap gap-6">
@@ -61,8 +61,10 @@
   </div>
 </div>
 
+<div class="my-12"></div>
+
 <div class="text-center font-regular text-blue-600 dark:text-blue-300">
-  <span class="text-lg">Designed by <a class="font-medium text-slate-500 dark:text-white">Korfi</a> in Oklahoma</span>
+  <span class="text-md">Designed by <a class="font-medium text-slate-500 dark:text-white">Korfi</a> in Oklahoma</span>
 </div><br/>
 
 </div>
