@@ -117,9 +117,12 @@
 <div class="text-center text-slate-700 dark:text-slate-300 text-lg font-regular">This will often be updated with new content.</div>
 <div class="text-center text-blue-300 text-lg font-medium">Check back every now and then.</div>
 
+<div class="my-16"></div>
+
 <div class="text-center font-regular text-blue-600 dark:text-blue-300">
   <span class="text-lg">Designed by <a class="font-medium text-slate-500 dark:text-white">Korfi</a> in Oklahoma</span>
 </div>
+<div class="my-12"></div>
 
 </div>
 </template>
