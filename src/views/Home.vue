@@ -44,9 +44,7 @@
 
 <div class="text-center font-regular text-blue-600 dark:text-blue-300">
   <span class="text-lg">Designed by <a class="font-medium text-slate-500 dark:text-white">Korfi</a> in Oklahoma</span>
-</div><br/>
-
-
+</div>
 <div class="my-12"></div>
 
 </div>
