@@ -23,20 +23,20 @@
 
 <div class="my-12"></div>
 
-<div class="justify-center px-6 flex flex-col items-center xl:flex-row flex-wrap gap-6">
-  <div class="box-border h-auto w-[370px] rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8 overflow-auto">
+<div class="justify-center px-6 flex items-center flex-col md:flex-row flex-wrap gap-6">
+  <div class="box-border h-auto w-[370px] md:w-[330px] xl:w-[370px] rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8 overflow-auto">
     <span class="inline-block font-semibold text-black dark:text-white text-xl align-middle">About Me</span><br/>
-    <span class="inline-block font-regular text-gray-500 dark:text-gray-400 text-lg">I am a self-taught graphical designer and photographer. My favorite hobbies include stargazing and playing video games of all kinds.</span>
+    <span class="inline-block font-regular text-gray-500 dark:text-gray-400 text-lg">I am a self-taught designer and photographer. My favorite hobbies include stargazing and playing video games.</span>
   </div>
 
-  <div class="box-border h-auto w-[370px] rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8 overflow-auto">
+  <div class="box-border h-auto w-[370px] md:w-[330px] xl:w-[370px] rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8 overflow-auto">
     <span class="inline-block font-semibold text-black dark:text-white text-xl align-middle">My Work</span><br/>
-    <span class="inline-block font-regular text-gray-500 dark:text-gray-400 text-lg">My work ranges from software designs such as Ontario, to icon packs such as iOffice, to a variety of photos I take on my adventures.</span>
+    <span class="inline-block font-regular text-gray-500 dark:text-gray-400 text-lg">My work ranges from software designs such as Ontario, to icon packs such as iOffice, to a variety of photos I take.</span>
   </div>
 
-  <div class="box-border h-auto w-[370px] rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">
+  <div class="box-border h-auto w-[370px] md:w-[684px] xl:w-[370px] rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">
     <span class="inline-block font-semibold text-black dark:text-white text-xl align-middle">My Plans</span><br/>
-    <span class="inline-block font-regular text-gray-500 dark:text-gray-400 text-lg">I plan to go to school for two years part-time in a Multimedia class, where I will learn more about graphical design, web design & photography.</span>
+    <span class="inline-block font-regular text-gray-500 dark:text-gray-400 text-lg">I plan to go to a 2 year Multimedia class part time to learn more about graphical / web design and photography.</span>
   </div>
 </div><br/>
 
