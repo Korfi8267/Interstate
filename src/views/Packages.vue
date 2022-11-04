@@ -4,7 +4,7 @@
 
 <!-- Latest Item -->
 <div class="flex justify-center px-5">
-  <div class="h-auto w-[370px] sm:w-full md:max-w-[788px] lg:max-w-full lg:w-[788px] xl:w-[1158px] justify-left">
+  <div class="h-auto w-[370px] md:w-[680px] xl:max-w-full xl:w-[1158px] justify-left">
     <span class="font-semibold text-black dark:text-white text-3xl">Announcements</span>
   </div>
 </div>
@@ -12,11 +12,11 @@
 
 <div class="flex flex-col items-center justify-center px-6">
 <div class="grow hidden"></div>
-  <div class="flex-none box-border h-auto w-[370px] sm:w-full md:max-w-[788px] lg:max-w-full lg:w-[788px] xl:w-[1158px] rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8 overflow-auto">
+  <div class="flex-none box-border h-auto w-[370px] md:w-[680px] xl:max-w-full xl:w-[1158px] rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8 overflow-auto">
     <div class="flex flex-wrap flex-row justify-left gap-3">
       <span class="flex-none inline-block px-3 py-0.5 box-border h-auto w-auto rounded-full bg-blue-500 text-md text-white font-semibold">NEW</span> 
       <span class="grow inline-block font-semibold text-black dark:text-white text-xl">Website Beta</span>
-      <span class="hidden sm:block flex-none px-3 font-regular text-gray-500 dark:text-gray-400 text-xl">24 Oct. 2022</span>
+      <span class="hidden md:block flex-none px-3 font-regular text-gray-500 dark:text-gray-400 text-xl">24 Oct. 2022</span>
     </div>
     <div class="my-2"></div>
       <span class="inline-block font-regular text-black dark:text-gray-400 text-lg">I'm happy to announce a public beta for my website, <span class="font-semibold dark:text-white">The Interstate</span>! As it's still in beta please feel free to send suggestions.</span>
@@ -37,9 +37,9 @@
 <div class="my-4"></div>
 
 <!-- Item Grid -->
-<div class="flex flex-row flex-wrap gap-y-7 px-6 justify-center overflow-hidden">
-  <div class="flex flex-col xl:flex-row flex-wrap px-6 gap-x-6 gap-y-7 justify-center items-center">
-  <div class="bg-[url('../assets/greengrass.jpeg')] relative bg-cover bg-center box-border h-[240px] w-[370px] rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">
+<div class="flex flex-row flex-wrap gap-y-7 px-3 gap-x-5 justify-center overflow-hidden">
+  <div class="flex flex-col xl:flex-row flex-wrap gap-x-6 gap-y-7 justify-center items-center">
+  <div class="bg-[url('../assets/greengrass.jpeg')] relative bg-cover bg-center box-border h-[240px] w-[370px] md:h-[200px] md:w-[330px] xl:h-[240px] xl:w-[370px] rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">
     <div class="absolute bottom-1 left-1 right-1 flex flex-row">
       <span class="flex-none rounded-md py-1.5 px-3 bg-gray-700/50 text-white font-semibold backdrop-blur-sm">Green Grass</span>
       <span class="grow"></span>
@@ -51,7 +51,7 @@
     </div>
   </div>
 
-  <div class="bg-[url('../assets/greengrass2.jpeg')] relative bg-cover bg-center box-border h-[240px] w-[370px] rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">
+  <div class="bg-[url('../assets/greengrass2.jpeg')] relative bg-cover bg-center box-border h-[240px] w-[370px] md:h-[200px] md:w-[330px] xl:h-[240px] xl:w-[370px] rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">
     <div class="absolute bottom-1 left-1 right-1 flex flex-row">
       <span class="flex-none rounded-md py-1.5 px-3 bg-gray-700/50 text-white font-semibold backdrop-blur-sm">Green Grass</span>
       <span class="grow"></span>
@@ -63,7 +63,7 @@
     </div>
   </div>
 
-  <div class="bg-[url('../assets/sunset.jpeg')] relative bg-cover bg-center box-border h-[240px] w-[370px] rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">
+  <div class="bg-[url('../assets/sunset.jpeg')] relative bg-cover bg-center box-border h-[240px] w-[370px] md:h-[200px] md:w-[330px] xl:h-[240px] xl:w-[370px] rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">
     <div class="absolute bottom-1 left-1 right-1 flex flex-row">
       <span class="flex-none rounded-md py-1.5 px-3 bg-gray-700/50 text-white font-semibold backdrop-blur-sm">Green Grass</span>
       <span class="grow"></span>
@@ -76,8 +76,8 @@
   </div>
   </div>
 
-  <div class="flex flex-col xl:flex-row flex-wrap px-6 gap-x-6 gap-y-7 justify-center items-center">
-  <div class="bg-[url('../assets/greengrass.jpeg')] relative bg-cover bg-center box-border h-[240px] w-[370px] rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">
+  <div class="flex flex-col xl:flex-row flex-wrap gap-x-6 gap-y-7 justify-center items-center">
+  <div class="bg-[url('../assets/greengrass.jpeg')] relative bg-cover bg-center box-border h-[240px] w-[370px] md:h-[200px] md:w-[330px] xl:h-[240px] xl:w-[370px] rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">
     <div class="absolute bottom-1 left-1 right-1 flex flex-row">
       <span class="flex-none rounded-md py-1.5 px-3 bg-gray-700/50 text-white font-semibold backdrop-blur-sm">Green Grass</span>
       <span class="grow"></span>
@@ -89,7 +89,7 @@
     </div>
   </div>
 
-  <div class="bg-[url('../assets/greengrass2.jpeg')] relative bg-cover bg-center box-border h-[240px] w-[370px] rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">
+  <div class="bg-[url('../assets/greengrass2.jpeg')] relative bg-cover bg-center box-border h-[240px] w-[370px] md:h-[200px] md:w-[330px] xl:h-[240px] xl:w-[370px] rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">
     <div class="absolute bottom-1 left-1 right-1 flex flex-row">
       <span class="flex-none rounded-md py-1.5 px-3 bg-gray-700/50 text-white font-semibold backdrop-blur-sm">Green Grass</span>
       <span class="grow"></span>
@@ -101,7 +101,7 @@
     </div>
   </div>
 
-  <div class="bg-[url('../assets/sunset.jpeg')] relative bg-cover bg-center box-border h-[240px] w-[370px] rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">
+  <div class="bg-[url('../assets/sunset.jpeg')] relative bg-cover bg-center box-border h-[240px] w-[370px] md:h-[200px] md:w-[330px] xl:h-[240px] xl:w-[370px] rounded-lg shadow-lg bg-slate-100 dark:bg-slate-800 p-8">
     <div class="absolute bottom-1 left-1 right-1 flex flex-row">
       <span class="flex-none rounded-md py-1.5 px-3 bg-gray-700/50 text-white font-semibold backdrop-blur-sm">Green Grass</span>
       <span class="grow"></span>
