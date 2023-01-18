@@ -1,8 +1,9 @@
 <template>
 <nav class="sm:hidden bg-gray-100 dark:bg-slate-800 shadow-md overscroll-x-none overscroll-y-auto w-full fixed z-50">
   <div class="max-w-7xl mx-auto px-2">
-    <div class="justify-center items-center p-5 gap-8 flex flex-row">
+    <div class="justify-left items-center p-5 gap-8 flex flex-row">
       <img class="justify-left rounded-full w-8 h-8" src="../assets/mii2.png" />
+      <div class="flex-grow"></div>
         <!-- Mobile NavBar Buttons -->
 
         <!-- Home -->
