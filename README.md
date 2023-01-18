@@ -23,5 +23,9 @@ This is intentional, as I want to wait until the site is essentially complete be
 ### Buggy scrolling on iOS devices
 I believe this is caused by how iOS handles methods of refreshing a page. You can drag a page down to refresh it. If you stop mid-drag and release, and quickly try to scroll the contents of any page, it does not work. Hope to figure this out at some point.
 
+
+### Buggy side-scrolling on Android devices
+I think this is simply due to how objects are placed and/or sized. I found out about this issue thanks to a friend of mine who opened the website on his device. While I do not have an android device of my own I hope to fix this issue once the time comes.
+
 ## Wrapping Up
 If you want to keep up with development, bookmark this website. I'll regularly (not really) update this repo with the latest changes I've made. No release date planned. I want to take my time on it.
