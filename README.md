@@ -14,7 +14,7 @@ The Portfolio page includes things I'm notably known for, such as iOffice and pr
 The Packages page will be a bit small, really only hosting iOffice and perhaps a collage of images I've taken. However it will be the location of the latest announcement, but that's subject to change.
 
 ### Contact
-The Contact page hosts a few ways where you can find me, as well as info for each method describing the purpose of each. Depending on what you want do do, please choose wisely.
+The Contact page is planned to be merged with the Home Page to save on resources and to clean up general code.
 
 ## Known Issues
 ### M.B.S. link nonfunctional
@@ -22,7 +22,6 @@ This is intentional, as I want to wait until the site is essentially complete be
 
 ### Buggy scrolling on iOS devices
 I believe this is caused by how iOS handles methods of refreshing a page. You can drag a page down to refresh it. If you stop mid-drag and release, and quickly try to scroll the contents of any page, it does not work. Hope to figure this out at some point.
-
 
 ### Buggy side-scrolling on Android devices
 I think this is simply due to how objects are placed and/or sized. I found out about this issue thanks to a friend of mine who opened the website on his device. While I do not have an android device of my own I hope to fix this issue once the time comes.
