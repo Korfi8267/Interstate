@@ -1,5 +1,5 @@
 <template>
-<div class="w-full h-full scroll-smooth overflow-auto">
+<div class="bg-white dark:bg-slate-900 scroll-smooth overflow-auto">
 <div class="my-24"></div>
 
 <div class="flex flex-col md:flex-row items-center text-center md:text-left justify-center px-7 md:px-20">
@@ -80,7 +80,7 @@
     </div>
 </div>
 
-<div class="my-24"/>
+<div class="my-16"/>
 
 <div class="text-center font-regular text-blue-400 dark:text-blue-300">
   <span class="text-lg">Created by <a class="font-medium text-blue-600 dark:text-white">Korfi</a> in Oklahoma</span>

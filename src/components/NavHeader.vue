@@ -1,5 +1,5 @@
 <template>
-<nav class="sm:hidden bg-gray-100 dark:bg-slate-800 shadow-md sticky top-0 z-50">
+<nav class="md:hidden bg-gray-100 dark:bg-slate-800 shadow-md sticky top-0 z-50">
   <div class="w-full mx-auto px-2">
     <div class="justify-left items-center p-5 gap-8 flex flex-row">
       <img class="justify-left rounded-full w-8 h-8" src="../assets/mii2.png" />
@@ -7,7 +7,7 @@
         <!-- Mobile NavBar Buttons -->
 
         <!-- Home -->
-        <button class="sm:hidden transition ease-in-out delay-50 hover:scale-105">
+        <button class="md:hidden transition ease-in-out delay-50 hover:scale-105">
           <!-- Inactive -->
           <a v-show="$route.name!=='Home'" class="text-slate-500 hover:text-gray-900 dark:hover:text-blue-200"><router-link to="/">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="w-6 h-6">
@@ -23,7 +23,7 @@
         </button>
 
         <!-- Portfolio -->
-        <button class="sm:hidden transition ease-in-out delay-50 hover:scale-105">
+        <button class="md:hidden transition ease-in-out delay-50 hover:scale-105">
           <!-- Inactive -->
           <a v-show="$route.name!=='Portfolio'" class="text-slate-500 hover:text-gray-900 dark:hover:text-blue-200"><router-link to="/Portfolio">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="w-6 h-6">
@@ -39,7 +39,7 @@
         </button>
 
         <!-- Packages -->
-        <button class="sm:hidden transition ease-in-out delay-50 hover:scale-105">
+        <button class="md:hidden transition ease-in-out delay-50 hover:scale-105">
           <!-- Inactive -->
           <a v-show="$route.name!=='Packages'" class="text-slate-500 hover:text-gray-900 dark:hover:text-blue-200"><router-link to="/Packages">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="w-6 h-6">
@@ -55,7 +55,7 @@
         </button>
 
         <!-- Contact -->
-        <button class="sm:hidden transition ease-in-out delay-50 hover:scale-105">
+        <button class="md:hidden transition ease-in-out delay-50 hover:scale-105">
           <!-- Inactive -->
           <a v-show="$route.name!=='Contact'" class="text-slate-500 hover:text-gray-900 dark:hover:text-blue-200"><router-link to="/Contact">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="w-6 h-6">
@@ -73,7 +73,7 @@
     </div>
 </nav>
 
-<nav class="hidden sm:block bg-gray-100 dark:bg-slate-800 shadow-md sticky top-0 z-50">
+<nav class="hidden md:block bg-gray-100 dark:bg-slate-800 shadow-md sticky top-0 z-50 overflow-hidden">
   <div class="w-full mx-auto px-2">
     <div class="justify-left items-center p-5 gap-8 flex flex-row">
       <img class="rounded-full w-8 h-8" src="../assets/mii2.png" />
