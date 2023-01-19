@@ -1,6 +1,6 @@
 <template>
-<div class="w-screen h-screen overflow-auto scroll-smooth">
-<div class="my-32"></div>
+<div class="w-full h-full scroll-smooth overflow-auto">
+<div class="my-24"></div>
 
 <div class="flex flex-col md:flex-row items-center text-center md:text-left justify-center px-7 md:px-20">
   <img class="w-16 md:w-12 h-16 md:h-12 transition ease-in-out delay-50 hover:rotate-12" src="../assets/handwave.png" /><div class="px-4 py-4"></div>
@@ -92,7 +92,7 @@
 </template>
 
 <script>
-  
+
 export default {
   name: 'app',
   components: {

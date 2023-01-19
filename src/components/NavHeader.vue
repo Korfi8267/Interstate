@@ -1,6 +1,6 @@
 <template>
-<nav class="sm:hidden bg-gray-100 dark:bg-slate-800 shadow-md overscroll-x-none overscroll-y-auto w-full fixed z-50">
-  <div class="max-w-7xl mx-auto px-2">
+<nav class="sm:hidden bg-gray-100 dark:bg-slate-800 shadow-md sticky top-0 z-50">
+  <div class="w-full mx-auto px-2">
     <div class="justify-left items-center p-5 gap-8 flex flex-row">
       <img class="justify-left rounded-full w-8 h-8" src="../assets/mii2.png" />
       <div class="flex-grow"></div>
@@ -73,8 +73,8 @@
     </div>
 </nav>
 
-<nav class="hidden sm:block bg-gray-100 dark:bg-slate-800 shadow-md overscroll-x-none overscroll-y-auto fixed w-screen z-50">
-  <div class="max-w-7xl mx-auto px-2">
+<nav class="hidden sm:block bg-gray-100 dark:bg-slate-800 shadow-md sticky top-0 z-50">
+  <div class="w-full mx-auto px-2">
     <div class="justify-left items-center p-5 gap-8 flex flex-row">
       <img class="rounded-full w-8 h-8" src="../assets/mii2.png" />
       <a class="font-semibold text-2xl text-slate-800 dark:text-white">Interstate</a>
