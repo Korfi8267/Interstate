@@ -2,7 +2,7 @@
 <nav class="md:hidden bg-gray-100 dark:bg-slate-800 shadow-md sticky top-0 overflow-visible">
   <div class="w-full mx-auto px-2">
     <div class="justify-left items-center p-5 gap-8 flex flex-row">
-      <img class="justify-left rounded-full w-8 h-8" src="../assets/mii2.png" />
+      <img class="justify-left rounded-full w-8 h-8" src="../assets/CoffeeCup.png" />
       <div class="flex-grow"></div>
         <!-- Mobile NavBar Buttons -->
 
@@ -76,7 +76,7 @@
 <nav class="hidden md:block bg-gray-100 dark:bg-slate-800 shadow-md sticky top-0 overflow-visible">
   <div class="w-full mx-auto px-2">
     <div class="justify-left items-center p-5 gap-8 flex flex-row">
-      <img class="rounded-full w-8 h-8" src="../assets/mii2.png" />
+      <img class="rounded-full w-8 h-8" src="../assets/CoffeeCup.png" />
       <a class="font-semibold text-2xl text-slate-800 dark:text-white">Interstate</a>
 
 
