@@ -1,6 +1,5 @@
 <template>
-<div class="bg-white dark:bg-slate-900 h-full scroll-smooth overflow-auto">
-  <div class="text-3xl text-black dark:text-white">hi</div>
+<div class="bg-white dark:bg-slate-900 scroll-smooth overflow-auto">
 <div class="my-24"></div>
 
 <div class="flex flex-col md:flex-row items-center text-center md:text-left justify-center px-7 md:px-20">
