@@ -25,14 +25,6 @@ const routes = [
     pageName: "My Packages"
     },
   },
-  {
-    path: "/contact",
-    name: "Contact",
-    component: () => import("../views/Contact.vue"),
-    meta: {
-    pageName: "Contact Me"
-  },
-  },
 ]
 
 const router = createRouter({
