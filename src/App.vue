@@ -1,11 +1,11 @@
 <template>
     <div class="bg-white dark:bg-slate-900 min-h-screen">
-      <nav-header class=""/>
+      <nav-header/>
       <transition 
    mode="out-in" 
-   enter-active-class="animate__animated animate__faster animate__fadeIn" 
+   enter-active-class="" 
    leave-active-class="animate__animated animate__slower animate__fadeOut">
-      <router-view class=""/>
+      <router-view/>
       </transition>
     </div>
 </template>
