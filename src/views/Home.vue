@@ -81,7 +81,7 @@
 </div>
 
 <div class="flex justify-center mb-12 px-7 md:px-20">
-  <div class="w-[1230px] items-center flex-row flex-nowrap flex snap-mandatory snap-x scroll-smooth rounded-md overflow-x-scroll gap-7">
+  <div class="w-[1230px] items-center flex-row flex-nowrap flex snap-mandatory snap-x scroll-smooth rounded-md overflow-x-scroll hide-scrollbar gap-7">
     <div class="flex-grow snap-start w-72 h-72 rounded-lg flex flex-col shrink-0">
       <div class="flex flex-row flex-nowrap items-center">      
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="w-5 h-5 mx-1 text-black dark:text-white">
