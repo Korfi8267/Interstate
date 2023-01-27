@@ -3,7 +3,7 @@
       <nav-header/>
       <transition 
    mode="out-in" 
-   enter-active-class="" 
+   enter-active-class="animate__animated animate__faster animate__fadeIn" 
    leave-active-class="animate__animated animate__slower animate__fadeOut">
       <router-view/>
       </transition>
