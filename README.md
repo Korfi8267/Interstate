@@ -17,8 +17,7 @@ The Packages page will be a bit small, really only hosting iOffice and perhaps a
 The Contact page is planned to be merged with the Home Page to save on resources and to clean up general code.
 
 ## Known Issues
-### M.B.S. link nonfunctional
-This is intentional, as I want to wait until the site is essentially complete before adding an invite to a server which I do not own. I believe this is the best option, as I want to play it safe.
+Surprisingly... none! If you found an issue you would like resolved please create one in the Issues tab.
 
 ## Wrapping Up
 If you want to keep up with development, bookmark this website. I'll regularly (not really) update this repo with the latest changes I've made. No release date planned. I want to take my time on it.
