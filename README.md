@@ -20,8 +20,5 @@ The Contact page is planned to be merged with the Home Page to save on resources
 ### M.B.S. link nonfunctional
 This is intentional, as I want to wait until the site is essentially complete before adding an invite to a server which I do not own. I believe this is the best option, as I want to play it safe.
 
-### Navigation Bar fades out in some situations
-This is known to happen when you access a separate page when the page you're currently on was scrolled down a bit. It's how the animations are structured in App.vue, however I may wait to fix this as it's not a huge issue. For now FadeIn has been removed.
-
 ## Wrapping Up
 If you want to keep up with development, bookmark this website. I'll regularly (not really) update this repo with the latest changes I've made. No release date planned. I want to take my time on it.
