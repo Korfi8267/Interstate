@@ -1,5 +1,5 @@
 <template>
-<nav class="md:hidden bg-gray-100 dark:bg-slate-800 sticky top-0 overflow-visible">
+<nav class="md:hidden bg-gray-100 dark:bg-slate-800 sticky top-0 z-50 overflow-visible">
   <div class="w-full mx-auto px-2">
     <div class="justify-left items-center p-5 gap-8 flex flex-row">
       <img class="block dark:hidden justify-left rounded-full w-8 h-8" src="../assets/CoffeeCupDark.png">
@@ -58,7 +58,7 @@
     </div>
 </nav>
 
-<nav class="hidden md:block bg-gray-100 dark:bg-slate-800 sticky top-0 overflow-visible">
+<nav class="hidden md:block bg-gray-100 dark:bg-slate-800 sticky top-0 z-50 overflow-visible">
   <div class="w-full mx-auto px-2">
     <div class="justify-left items-center p-5 gap-8 flex flex-row">
       <img class="block dark:hidden justify-left rounded-full w-8 h-8" src="../assets/CoffeeCupDark.png">
