@@ -4,10 +4,10 @@
 
 <div class="flex flex-col md:flex-row items-center text-center md:text-left justify-center px-7 md:px-20">
   <img class="w-16 md:w-12 h-16 md:h-12 transition ease-in-out delay-50 hover:rotate-12" src="../assets/handwave.png" /><div class="px-4 py-4"></div>
-  <div class="text-3xl font-semibold text-black dark:text-white">Hi there.<div class="text-xl font-normal text-blue-500 dark:text-blue-300">I'm a designer and photographer.</div></div>
+  <div class="text-3xl font-semibold text-black dark:text-white">Hi there.<div class="text-xl font-normal text-gray-600 dark:text-gray-300">I'm a designer and photographer.</div></div>
   <div class="py-4 md:py-0"></div><div class="flex grow max-w-[700px]"></div>
   <div class="box-border h-10 w-40 transition ease-in-out delay-50 hover:scale-105 bg-slate-100 dark:bg-slate-700 hover:bg-blue-400 dark:hover:bg-blue-600 rounded-md">
-    <button class="transition ease-in-out delay-50 text-black dark:text-white hover:text-gray-100 mx-auto px-5 h-10 w-40"><router-link to="/Portfolio">View my work</router-link></button>
+    <button class="transition ease-in-out delay-50 text-black dark:text-white hover:text-white hover:font-semibold mx-auto px-5 h-10 w-40"><router-link to="/Portfolio">View my work</router-link></button>
   </div>
 </div>
 
@@ -98,7 +98,7 @@
 
  <div class="flex flex-row items-center justify-center px-7 md:px-20 mb-12">
    <div class="flex-grow max-w-[1230px]">
-   <a href="https://discord.gg/WXcdtQK" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="md:w-[170px] h-12 md:h-10 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md  text-black dark:text-white bg-slate-100 dark:bg-slate-700 hover:bg-blue-400 dark:hover:bg-blue-600 hover:text-gray-100 items-center flex">
+   <a href="https://discord.gg/WXcdtQK" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="md:w-[170px] h-12 md:h-10 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md  text-black dark:text-white bg-slate-100 dark:bg-slate-700 hover:bg-blue-400 dark:hover:bg-blue-600 hover:text-white items-center flex">
      <div class="font-semibold sm:font-medium">Open Discord</div>
      </a>
  </div> 
@@ -120,7 +120,7 @@
  </div>
  <div class="flex flex-row items-center justify-center px-7 md:px-20 mb-12">
    <div class="flex-grow max-w-[1230px]">
-     <a href="https://github.com/Korfi8267" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="md:w-[170px] h-12 md:h-10 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md  text-black dark:text-white bg-slate-100 dark:bg-slate-700 hover:bg-blue-400 dark:hover:bg-blue-600 hover:text-gray-100 items-center flex">
+     <a href="https://github.com/Korfi8267" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="md:w-[170px] h-12 md:h-10 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md  text-black dark:text-white bg-slate-100 dark:bg-slate-700 hover:bg-blue-400 dark:hover:bg-blue-600 hover:text-white items-center flex">
    <div class="font-semibold sm:font-medium">Open Github</div>
      </a>
    </div>
@@ -142,7 +142,7 @@
 
  <div class="flex flex-row items-center justify-center px-7 md:px-20">
    <div class="flex-grow max-w-[1230px]">
-     <a href="https://twitter.com/Korfi8267" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="md:w-[170px] h-12 md:h-10 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md text-black dark:text-white bg-slate-100 dark:bg-slate-700 hover:bg-blue-400 dark:hover:bg-blue-600 hover:text-gray-100 items-center flex">
+     <a href="https://twitter.com/Korfi8267" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="md:w-[170px] h-12 md:h-10 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md text-black dark:text-white bg-slate-100 dark:bg-slate-700 hover:bg-blue-400 dark:hover:bg-blue-600 hover:text-white items-center flex">
      <div class="font-semibold sm:font-medium">Open Twitter</div>
      </a>
  </div>
