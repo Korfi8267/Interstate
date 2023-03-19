@@ -13,9 +13,6 @@ The Portfolio page includes things I'm notably known for, such as iOffice and pr
 ### Packages (unfinished)
 The Packages page will be a bit small, really only hosting iOffice and perhaps a collage of images I've taken. However it will be the location of the latest announcement, but that's subject to change.
 
-### Contact
-The Contact page is planned to be merged with the Home Page to save on resources and to clean up general code.
-
 ## Known Issues
 Surprisingly... none! If you found an issue you would like resolved please create one in the Issues tab.
 
