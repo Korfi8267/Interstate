@@ -5,7 +5,7 @@
   <div class="flex flex-col md:flex-row items-center text-center md:text-left justify-center px-7 md:px-20">
     <img class="w-16 md:w-12 h-16 md:h-12" src="../assets/box.png" /><div class="px-4 py-4"></div>
     <div class="text-3xl font-semibold text-black dark:text-white">My Portfolio.<div class="text-xl font-normal text-gray-600 dark:text-gray-300">My experience of working with what I love.</div></div>
-    <div class="py-4 md:py-0"></div><div class="flex grow max-w-[765px]"></div>
+    <div class="py-4 md:py-0"></div><div class="flex grow max-w-[780px]"></div>
   </div>
 
 <div class="my-12 md:my-24"/>
@@ -16,18 +16,32 @@
 </svg>
   <div class="mx-1"/>
   <div class="flex-grow max-w-[1199px] text-2xl font-semibold text-black dark:text-white">
-    Header
+    iOffice
   </div>
 </div>
 <div class="flex flex-row px-7 md:px-20 justify-center">
-  <div class="flex-grow max-w-[1230px] text-lg font-medium text-slate-600 dark:text-slate-400">
-      Paragraph 1. Summary of content.
+  <div class="flex-grow max-w-[1230px] text-lg font-medium text-slate-600 dark:text-slate-400 mb-4">
+      iOffice is an icon pack that resembles the Micrsoft Office icons.
       <div class="my-3"/> 
-      Paragraph 2. Brief explanation of content. 
+      It takes the design language of Microsoft Office's icons and takes them a step further,
+      applying new ideas, colors and mechanics so that each icon is unique and special in their
+      own way. 
       <div class="my-3"/>
-      Paragraph 3. <a class="text-gray-800 dark:text-slate-300 font-semibold">Important info.</a> 
-      Quick conclusion of explanation of content.
+      iOffice has 3 styles: <a class="text-gray-800 dark:text-slate-300 font-semibold">Light, Dark, and Glyph.</a> 
+      Each style has 100 icons each, totalling around 300 icons.
     </div>
+</div>
+
+<div class="flex flex-col md:flex-row items-center justify-center px-7 md:px-20 mb-12">
+  <div class="flex-grow flex-col md:flex-row flex w-full max-w-[1230px]">
+  <a download href="src/assets/mii2.png" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="md:w-[170px] h-12 md:h-10 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md  text-white bg-blue-500 dark:bg-blue-700 hover:bg-blue-700 dark:hover:bg-blue-500 items-center flex">
+    <div class="font-semibold sm:font-medium">Download</div>
+  </a>
+ <div class="my-2 md:my-0 md:mx-2"/>
+  <a href="https://discord.gg/WXcdtQK" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="w-full md:w-[170px] h-12 md:h-10 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md  text-black dark:text-white bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 items-center flex">
+    <div class="font-semibold sm:font-medium">Check it out</div>
+  </a> 
+</div>
 </div>
 </div>
 </template>
