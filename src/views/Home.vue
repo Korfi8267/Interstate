@@ -7,7 +7,7 @@
   <div class="text-3xl font-semibold text-black dark:text-white">Hi there.<div class="text-xl font-normal text-gray-600 dark:text-gray-300">I'm a designer and photographer.</div></div>
   <div class="py-4 md:py-0"></div><div class="flex grow max-w-[700px]"></div>
   <div class="box-border h-10 w-40 transition ease-in-out delay-50 hover:scale-105 bg-slate-100 dark:bg-slate-700 hover:bg-blue-400 dark:hover:bg-blue-600 rounded-md">
-    <button class="transition ease-in-out delay-50 text-black dark:text-white hover:text-white hover:font-semibold mx-auto px-5 h-10 w-40"><router-link to="/Portfolio">View my work</router-link></button>
+    <button class="transition ease-in-out delay-50 text-black dark:text-white hover:text-white hover:font-semibold mx-auto px-5 h-10 w-40"><router-link to="/Portfolio">View Portfolio</router-link></button>
   </div>
 </div>
 
@@ -149,8 +149,12 @@
 </div>
 <div class="my-16"/>
 
-<div class="text-center font-regular text-blue-400 dark:text-blue-500/70">
-  <span class="text-lg">Created by <a class="font-medium text-blue-600 dark:text-blue-400">Korfi</a> in Oklahoma</span>
+<div class="text-center font-regular text-blue-400 dark:text-blue-500">
+  <span class="text-lg">Created by <a class="font-medium text-blue-600 dark:text-white">Korfi</a> in Oklahoma</span>
+</div>
+
+<div class="pt-2 text-center font-regular text-gray-400 dark:text-blue-500/70">
+  <span class="text-sm">Copyright <a class="font-bold text-gray-600 dark:text-blue-200">Korfi, 2023</a>. All rights reserved.</span>
 </div>
 
 <div class="my-12"></div>
