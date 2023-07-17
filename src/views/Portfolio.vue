@@ -16,19 +16,25 @@
   <path fill-rule="evenodd" d="M9.344 3.071a49.52 49.52 0 015.312 0c.967.052 1.83.585 2.332 1.39l.821 1.317c.24.383.645.643 1.11.71.386.054.77.113 1.152.177 1.432.239 2.429 1.493 2.429 2.909V18a3 3 0 01-3 3h-15a3 3 0 01-3-3V9.574c0-1.416.997-2.67 2.429-2.909.382-.064.766-.123 1.151-.178a1.56 1.56 0 001.11-.71l.822-1.315a2.942 2.942 0 012.332-1.39zM6.75 12.75a5.25 5.25 0 1110.5 0 5.25 5.25 0 01-10.5 0zm12-1.5a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd" />
 </svg>
   <div class="mx-1"/>
-  <div class="flex-grow max-w-[1199px] text-2xl font-semibold text-black dark:text-white">Photo Editing
+  <div class="flex-grow max-w-[1199px] text-2xl font-semibold text-black dark:text-white">Media Editing
   </div>
 </div>
 <div class="flex flex-row px-7 md:px-20 justify-center">
   <div class="flex-grow max-w-[1230px] text-lg font-medium text-slate-600 dark:text-slate-400">
-      I have <a class="font-semibold text-black dark:text-slate-300">2 years</a> of experience in Photo Editing.
+      I have <a class="font-semibold text-black dark:text-slate-300">2 years</a> of experience in Photo Editing, and <a class="font-semibold text-black dark:text-slate-300">5 months</a> in Video Editing.
       <div class="my-3"/>
-      This includes the skills I've learned in school which started in AUgust of 2022, and includes periods
-      of time where I taught myself a multitude of methods in terms of editing photos.
+      This includes the skills I've learned in school which started in August of 2022, and includes periods
+      of time where I taught myself a multitude of methods in terms of editing photos and videos.
       <div class="my-3"/>
       At this time, I am most experienced with editing photographs and other forms of still media in 
       <a class="font-semibold text-gray-800 dark:text-slate-300">Pixelmator Pro</a>.
       However I do have some experience in <a class="font-semibold text-gray-800 dark:text-slate-300">Adobe Photoshop or Lightroom</a> as well as Apple's stock Photos app.
+      <div class="my-3"/>
+      Regarding video editing, I am most experienced with editing long and short videos in
+      <a class="font-semibold text-gray-800 dark:text-slate-300">Davinci Resolve</a>.
+      I also have a little bit of experience with editing short videos in the mobile application
+      <a class="font-semibold text-gray-800 dark:text-slate-300">CapCut</a>. 
+      I also have some experience in <a class="font-semibold text-gray-800 dark:text-slate-300">Adobe Premiere Pro and After Effects</a>.
     </div>
 </div>
 
@@ -142,6 +148,30 @@
       They will over time be updated depending on what happens, so pelase do check every now and then.
     </div>
 </div>
+
+<div class="flex flex-row items-center justify-center px-7 md:px-20">
+        <div class="items-center flex flex-row flex-grow max-w-[1230px] text-xl font-semibold text-black dark:text-white">      
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mx-1 text-black dark:text-white">
+            <path fill-rule="evenodd" d="M2 10a8 8 0 1116 0 8 8 0 01-16 0zm6.39-2.908a.75.75 0 01.766.027l3.5 2.25a.75.75 0 010 1.262l-3.5 2.25A.75.75 0 018 12.25v-4.5a.75.75 0 01.39-.658z" clip-rule="evenodd" />
+          </svg>
+        <div class="align-left text-xl font-semibold text-black dark:text-white">YouTube</div>
+      </div>
+ </div>
+ <div class="flex flex-row px-7 md:px-20 justify-center">
+   <div class="flex-grow max-w-[1230px] text-lg font-medium text-slate-600 dark:text-slate-400 mb-4">
+    I am a video editor for <a class="font-semibold text-gray-800 dark:text-slate-300">BabyBardock</a> on YouTube.
+    I edit videos that range from gameplay videos, to bloopers, to shorts, to anything else in particular. New videos
+    are created fairly often, so feel free to check out their channel from time to time.
+     </div>
+ </div>
+
+ <div class="flex flex-row items-center justify-center px-7 md:px-20 mb-12">
+   <div class="flex-grow max-w-[1230px]">
+   <a href="https://www.youtube.com/@BabyBardock/videos" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="md:w-[170px] h-12 md:h-10 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md  text-black dark:text-white bg-slate-100 dark:bg-slate-700 hover:bg-blue-400 dark:hover:bg-blue-600 hover:text-white items-center flex">
+     <div class="font-semibold sm:font-medium">Check it out</div>
+     </a>
+ </div> 
+ </div>
 
 <div class="flex flex-row items-center justify-center px-7 md:px-20">
         <div class="items-center flex flex-row flex-grow max-w-[1230px] text-xl font-semibold text-black dark:text-white">      
