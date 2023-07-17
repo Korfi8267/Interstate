@@ -26,11 +26,11 @@
   <div class="flex-grow max-w-[1230px] text-lg font-medium text-slate-600 dark:text-slate-400">
       I am Mac, otherwise known as Korfi online.
       <div class="my-3"/> 
-      I am a graphic designer and amatuer photographer from Oklahoma. I am attending a 
-      school for a Multimedia class where I am learning image editing, coding, graphical 
+      I am a graphic designer and amatuer photographer and media editor from Oklahoma. I am attending a 
+      school for a Multimedia class where I am learning image and video editing, coding, graphical 
       design and more. 
       <div class="my-3"/>
-      I have roughly <a class="text-gray-800 dark:text-slate-300 font-semibold">2 years</a> 
+      I have roughly <a class="text-gray-800 dark:text-slate-300 font-semibold">2 1/2 years</a> 
       of experience designing software concepts. I alays love to tinker with design, as
       well as experiment with new ideas pushing the limits of the software we have today.
     </div>
