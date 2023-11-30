@@ -16,33 +16,112 @@
 </svg>
   <div class="mx-1"/>
   <div class="flex-grow max-w-[1199px] text-2xl font-semibold text-black dark:text-white">
-    iOffice
+    The Latest.
   </div>
 </div>
 <div class="flex flex-row px-7 md:px-20 justify-center">
   <div class="flex-grow max-w-[1230px] text-lg font-medium text-slate-600 dark:text-slate-400 mb-4">
-      iOffice brings productivity to your home screen.
-      <div class="my-3"/> 
-      It takes the design language of Microsoft Office's icons and takes them a step further,
-      applying new ideas, colors and mechanics so that each icon is unique and special in their
-      own way. 
-      <div class="my-3"/>
-      iOffice has 3 styles: <a class="text-gray-800 dark:text-slate-300 font-semibold">Light, Dark, and Glyph.</a> 
-      Each style has 100 icons each, totalling around 300 icons.
+      The latest packages I've compiled thus far. The newest one appears on the left.
     </div>
 </div>
 
-<div class="flex flex-col md:flex-row items-center justify-center px-7 md:px-20 mb-12">
-  <div class="flex-grow flex-col md:flex-row flex w-full max-w-[1230px]">
-  <a download href="src/assets/mii2.png" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="md:w-[170px] h-12 md:h-10 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md  text-white bg-blue-500 dark:bg-blue-700 hover:bg-blue-700 dark:hover:bg-blue-500 items-center flex">
-    <div class="font-semibold sm:font-medium">Download</div>
-  </a>
- <div class="my-2 md:my-0 md:mx-2"/>
-  <a href="https://discord.gg/WXcdtQK" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="w-full md:w-[170px] h-12 md:h-10 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md  text-black dark:text-white bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 items-center flex">
-    <div class="font-semibold sm:font-medium">Check it out</div>
-  </a> 
+<div class="justify-center flex flex-row px-7 md:px-20 hide-scrollbar">
+  <div class="justify-left flex flex-row max-w-[1230px] hide-scrollbar snap-x snap-mandatory overflow-auto gap-10 w-full h-96 rounded-xl">
+
+    <div class="box-border h-auto w-96 rounded-xl bg-slate-100 dark:bg-slate-800 snap-always snap-center shrink-0 px-8 pb-6">
+      <span class="inline-block font-semibold text-black dark:text-white text-2xl align-middle pt-6">iOffice</span><br/>
+      <div class="flex-grow max-w-[1230px] text-lg font-medium text-slate-600 dark:text-slate-400 mb-4 pt-3">
+        iOffice brings productivity to your home screen.
+        <div class="my-3"/> 
+        iOffice has 3 styles: <a class="text-gray-800 dark:text-slate-300 font-semibold">Light, Dark, and Glyph.</a> 
+        Each style has 100 icons each, totalling around 300 icons.
+      </div>
+      <div class="flex-grow flex-col flex w-full max-w-[1230px] gap-y-4 pt-3">
+        <a download href="src/assets/mii2.png" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="w-full h-12 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md  text-white bg-blue-500 dark:bg-blue-700 hover:bg-blue-700 dark:hover:bg-blue-500 items-center flex">
+          <div class="font-semibold sm:font-medium">Download</div>
+        </a>
+        <a href="https://discord.gg/WXcdtQK" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="w-full h-12 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md  text-black dark:text-white bg-blue-100 dark:bg-slate-700 hover:bg-blue-200 dark:hover:bg-slate-600 items-center flex">
+          <div class="font-semibold sm:font-medium">Check it out</div>
+        </a> 
+      </div>
+    </div>
+
+    <div class="box-border h-auto w-96 rounded-xl bg-slate-100 dark:bg-slate-800 snap-always snap-center shrink-0 px-8 pb-6">
+      <span class="inline-block font-semibold text-black dark:text-white text-2xl align-middle pt-6">iOffice</span><br/>
+      <div class="flex-grow max-w-[1230px] text-lg font-medium text-slate-600 dark:text-slate-400 mb-4 pt-3">
+        iOffice brings productivity to your home screen.
+        <div class="my-3"/> 
+        iOffice has 3 styles: <a class="text-gray-800 dark:text-slate-300 font-semibold">Light, Dark, and Glyph.</a> 
+        Each style has 100 icons each, totalling around 300 icons.
+      </div>
+      <div class="flex-grow flex-col flex w-full max-w-[1230px] gap-y-4 pt-3">
+        <a download href="src/assets/mii2.png" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="w-full h-12 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md  text-white bg-blue-500 dark:bg-blue-700 hover:bg-blue-700 dark:hover:bg-blue-500 items-center flex">
+          <div class="font-semibold sm:font-medium">Download</div>
+        </a>
+        <a href="https://discord.gg/WXcdtQK" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="w-full h-12 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md  text-black dark:text-white bg-blue-100 dark:bg-slate-700 hover:bg-blue-200 dark:hover:bg-slate-600 items-center flex">
+          <div class="font-semibold sm:font-medium">Check it out</div>
+        </a> 
+      </div>
+    </div>
+
+    <div class="box-border h-auto w-96 rounded-xl bg-slate-100 dark:bg-slate-800 snap-always snap-center shrink-0 px-8 pb-6">
+      <span class="inline-block font-semibold text-black dark:text-white text-2xl align-middle pt-6">iOffice</span><br/>
+      <div class="flex-grow max-w-[1230px] text-lg font-medium text-slate-600 dark:text-slate-400 mb-4 pt-3">
+        iOffice brings productivity to your home screen.
+        <div class="my-3"/> 
+        iOffice has 3 styles: <a class="text-gray-800 dark:text-slate-300 font-semibold">Light, Dark, and Glyph.</a> 
+        Each style has 100 icons each, totalling around 300 icons.
+      </div>
+      <div class="flex-grow flex-col flex w-full max-w-[1230px] gap-y-4 pt-3">
+        <a download href="src/assets/mii2.png" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="w-full h-12 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md  text-white bg-blue-500 dark:bg-blue-700 hover:bg-blue-700 dark:hover:bg-blue-500 items-center flex">
+          <div class="font-semibold sm:font-medium">Download</div>
+        </a>
+        <a href="https://discord.gg/WXcdtQK" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="w-full h-12 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md  text-black dark:text-white bg-blue-100 dark:bg-slate-700 hover:bg-blue-200 dark:hover:bg-slate-600 items-center flex">
+          <div class="font-semibold sm:font-medium">Check it out</div>
+        </a> 
+      </div>
+    </div>
+
+    <div class="box-border h-auto w-96 rounded-xl bg-slate-100 dark:bg-slate-800 snap-always snap-center shrink-0 px-8 pb-6">
+      <span class="inline-block font-semibold text-black dark:text-white text-2xl align-middle pt-6">iOffice</span><br/>
+      <div class="flex-grow max-w-[1230px] text-lg font-medium text-slate-600 dark:text-slate-400 mb-4 pt-3">
+        iOffice brings productivity to your home screen.
+        <div class="my-3"/> 
+        iOffice has 3 styles: <a class="text-gray-800 dark:text-slate-300 font-semibold">Light, Dark, and Glyph.</a> 
+        Each style has 100 icons each, totalling around 300 icons.
+      </div>
+      <div class="flex-grow flex-col flex w-full max-w-[1230px] gap-y-4 pt-3">
+        <a download href="src/assets/mii2.png" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="w-full h-12 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md  text-white bg-blue-500 dark:bg-blue-700 hover:bg-blue-700 dark:hover:bg-blue-500 items-center flex">
+          <div class="font-semibold sm:font-medium">Download</div>
+        </a>
+        <a href="https://discord.gg/WXcdtQK" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="w-full h-12 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md  text-black dark:text-white bg-blue-100 dark:bg-slate-700 hover:bg-blue-200 dark:hover:bg-slate-600 items-center flex">
+          <div class="font-semibold sm:font-medium">Check it out</div>
+        </a> 
+      </div>
+    </div>
+
+    <div class="box-border h-auto w-96 rounded-xl bg-slate-100 dark:bg-slate-800 snap-always snap-center shrink-0 px-8 pb-6">
+      <span class="inline-block font-semibold text-black dark:text-white text-2xl align-middle pt-6">iOffice</span><br/>
+      <div class="flex-grow max-w-[1230px] text-lg font-medium text-slate-600 dark:text-slate-400 mb-4 pt-3">
+        iOffice brings productivity to your home screen.
+        <div class="my-3"/> 
+        iOffice has 3 styles: <a class="text-gray-800 dark:text-slate-300 font-semibold">Light, Dark, and Glyph.</a> 
+        Each style has 100 icons each, totalling around 300 icons.
+      </div>
+      <div class="flex-grow flex-col flex w-full max-w-[1230px] gap-y-4 pt-3">
+        <a download href="src/assets/mii2.png" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="w-full h-12 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md  text-white bg-blue-500 dark:bg-blue-700 hover:bg-blue-700 dark:hover:bg-blue-500 items-center flex">
+          <div class="font-semibold sm:font-medium">Download</div>
+        </a>
+        <a href="https://discord.gg/WXcdtQK" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="w-full h-12 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md  text-black dark:text-white bg-blue-100 dark:bg-slate-700 hover:bg-blue-200 dark:hover:bg-slate-600 items-center flex">
+          <div class="font-semibold sm:font-medium">Check it out</div>
+        </a> 
+      </div>
+    </div>
+  </div>
 </div>
-</div>
+
+<div class="my-64"/>
+
 </div>
 </template>
 <script>
