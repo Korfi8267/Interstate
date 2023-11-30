@@ -81,6 +81,7 @@
       The more recent contributions are found higher on the list, with the newest or ongoing one being at the top.
     </div>
 </div>
+
 <div class="flex flex-row items-center justify-center px-7 md:px-20">
         <div class="items-center flex flex-row flex-grow max-w-[1230px] text-xl font-semibold text-black dark:text-white">      
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mx-1 text-black dark:text-white">
@@ -149,53 +150,78 @@
     </div>
 </div>
 
-<div class="flex flex-row items-center justify-center px-7 md:px-20">
-        <div class="items-center flex flex-row flex-grow max-w-[1230px] text-xl font-semibold text-black dark:text-white">      
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mx-1 text-black dark:text-white">
+<div class="justify-center flex flex-row px-7 md:px-20 pb-12">
+  <div class="justify-left flex flex-row max-w-[1230px] snap-x snap-mandatory overflow-auto gap-10 w-full h-96 rounded-xl hide-scrollbar">
+
+    <div class="box-border h-auto w-96 rounded-xl bg-slate-100 dark:bg-slate-800 snap-always snap-center shrink-0 px-8 pb-6">
+      <div class="items-center flex flex-row flex-grow max-w-[1230px] text-xl font-semibold text-black dark:text-white pt-6">      
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-7 h-7 mr-1 text-black dark:text-white">
             <path fill-rule="evenodd" d="M2 10a8 8 0 1116 0 8 8 0 01-16 0zm6.39-2.908a.75.75 0 01.766.027l3.5 2.25a.75.75 0 010 1.262l-3.5 2.25A.75.75 0 018 12.25v-4.5a.75.75 0 01.39-.658z" clip-rule="evenodd" />
           </svg>
-        <div class="align-left text-xl font-semibold text-black dark:text-white">YouTube</div>
+        <div class="align-left text-2xl font-semibold text-black dark:text-white">YouTube</div>
       </div>
- </div>
- <div class="flex flex-row px-7 md:px-20 justify-center">
-   <div class="flex-grow max-w-[1230px] text-lg font-medium text-slate-600 dark:text-slate-400 mb-4">
-    I am a video editor for <a class="font-semibold text-gray-800 dark:text-slate-300">BabyBardock</a> on YouTube.
-    I edit videos that range from gameplay videos, to bloopers, to shorts, to anything else in particular. New videos
-    are created fairly often, so feel free to check out their channel from time to time.
-     </div>
- </div>
+      <div class="flex-grow max-w-[1230px] text-lg font-medium text-slate-600 dark:text-slate-400 mb-4 pt-3">
+        I am a video editor for <a class="font-semibold text-gray-800 dark:text-slate-300">BabyBardock</a> on YouTube.
+        I edit videos that range from gameplay videos, to bloopers, to shorts, to anything else in particular. 
+      </div>
+        <div class="flex-grow max-w-[1230px] text-lg font-medium text-slate-600 dark:text-slate-400 mb-4">
+          New videos are uploaded somewhat often, so feel free to check in from time to time.
+      </div>
+      <div class="flex-grow flex-col flex w-full max-w-[1230px] gap-y-4 pt-4">
+        <a href="https://discord.gg/WXcdtQK" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="w-full h-12 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md text-black dark:text-white hover:text-white hover:bg-gradient-to-r bg-blue-100 dark:bg-slate-700 hover:from-rose-500 hover:to-pink-500 items-center flex">
+          <div class="font-semibold sm:font-medium">Check it out</div>
+        </a> 
+      </div>
+    </div>
 
- <div class="flex flex-row items-center justify-center px-7 md:px-20 mb-12">
-   <div class="flex-grow max-w-[1230px]">
-   <a href="https://www.youtube.com/@BabyBardock/videos" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="md:w-[170px] h-12 md:h-10 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md  text-black dark:text-white bg-slate-100 dark:bg-slate-700 hover:bg-blue-400 dark:hover:bg-blue-600 hover:text-white items-center flex">
-     <div class="font-semibold sm:font-medium">Check it out</div>
-     </a>
- </div> 
- </div>
-
-<div class="flex flex-row items-center justify-center px-7 md:px-20">
-        <div class="items-center flex flex-row flex-grow max-w-[1230px] text-xl font-semibold text-black dark:text-white">      
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mx-1 text-black dark:text-white">
+    <div class="box-border h-auto w-96 rounded-xl bg-slate-100 dark:bg-slate-800 snap-always snap-center shrink-0 px-8 pb-6">
+      <div class="items-center flex flex-row flex-grow max-w-[1230px] text-xl font-semibold text-black dark:text-white pt-6">      
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-7 h-7 mr-1 text-black dark:text-white">
             <path d="M12 4.467c0-.405.262-.75.559-1.027.276-.257.441-.584.441-.94 0-.828-.895-1.5-2-1.5s-2 .672-2 1.5c0 .362.171.694.456.953.29.265.544.6.544.994a.968.968 0 01-1.024.974 39.655 39.655 0 01-3.014-.306.75.75 0 00-.847.847c.14.993.242 1.999.306 3.014A.968.968 0 014.447 10c-.393 0-.729-.253-.994-.544C3.194 9.17 2.862 9 2.5 9 1.672 9 1 9.895 1 11s.672 2 1.5 2c.356 0 .683-.165.94-.441.276-.297.622-.559 1.027-.559a.997.997 0 011.004 1.03 39.747 39.747 0 01-.319 3.734.75.75 0 00.64.842c1.05.146 2.111.252 3.184.318A.97.97 0 0010 16.948c0-.394-.254-.73-.545-.995C9.171 15.693 9 15.362 9 15c0-.828.895-1.5 2-1.5s2 .672 2 1.5c0 .356-.165.683-.441.94-.297.276-.559.622-.559 1.027a.998.998 0 001.03 1.005c1.337-.05 2.659-.162 3.961-.337a.75.75 0 00.644-.644c.175-1.302.288-2.624.337-3.961A.998.998 0 0016.967 12c-.405 0-.75.262-1.027.559-.257.276-.584.441-.94.441-.828 0-1.5-.895-1.5-2s.672-2 1.5-2c.362 0 .694.17.953.455.265.291.601.545.995.545a.97.97 0 00.976-1.024 41.159 41.159 0 00-.318-3.184.75.75 0 00-.842-.64c-1.228.164-2.473.271-3.734.319A.997.997 0 0112 4.467z" />
           </svg>
-        <div class="align-left text-xl font-semibold text-black dark:text-white">M.B.S.</div>
+        <div class="align-left text-2xl font-semibold text-black dark:text-white">M.B.S.</div>
       </div>
- </div>
- <div class="flex flex-row px-7 md:px-20 justify-center">
-   <div class="flex-grow max-w-[1230px] text-lg font-medium text-slate-600 dark:text-slate-400 mb-4">
-    I am a known member and administrator of the <a class="font-semibold text-gray-800 dark:text-slate-300">M.B.S. Variety Gaming</a> group.
-    This group primarily focuses on gaming, and bringing the fun back into the gaming industry. It is a small humble group, but we are always
-    open for new members.
-     </div>
- </div>
+      <div class="flex-grow max-w-[1230px] text-lg font-medium text-slate-600 dark:text-slate-400 mb-4 pt-3">
+        I am a member and administrator of the <a class="font-semibold text-gray-800 dark:text-slate-300">M.B.S. Variety Gaming</a> group.
+    This group primarily focuses on gaming, and bringing the fun back into gaming.
+      </div>
+        <div class="flex-grow max-w-[1230px] text-lg font-medium text-slate-600 dark:text-slate-400 mb-4">
+          It is a small humble group, but we are always open for new members to join the ranks.
+      </div>
+      <div class="flex-grow flex-col flex w-full max-w-[1230px] gap-y-4 pt-4">
+        <a href="https://discord.gg/WXcdtQK" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="w-full h-12 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md text-black dark:text-white hover:text-white hover:bg-gradient-to-r bg-blue-100 dark:bg-slate-700 hover:from-amber-500 hover:to-yellow-500 items-center flex">
+          <div class="font-semibold sm:font-medium">Join the fun</div>
+        </a> 
+      </div>
+    </div>
 
- <div class="flex flex-row items-center justify-center px-7 md:px-20 mb-12">
-   <div class="flex-grow max-w-[1230px]">
-   <a href="https://guilded.gg/MBS-Variety-Gaming" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="md:w-[170px] h-12 md:h-10 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md  text-black dark:text-white bg-slate-100 dark:bg-slate-700 hover:bg-blue-400 dark:hover:bg-blue-600 hover:text-white items-center flex">
-     <div class="font-semibold sm:font-medium">Join the Fun</div>
-     </a>
- </div> 
- </div>
+    <div class="box-border h-auto w-96 rounded-xl bg-slate-100 dark:bg-slate-800 snap-always snap-center shrink-0 px-8 pb-6">
+      <div class="items-center flex flex-row flex-grow max-w-[1230px] text-xl font-semibold text-black dark:text-white pt-6">      
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-7 h-7 mr-1 text-black dark:text-white">
+  <path fill-rule="evenodd" d="M9.664 1.319a.75.75 0 01.672 0 41.059 41.059 0 018.198 5.424.75.75 0 01-.254 1.285 31.372 31.372 0 00-7.86 3.83.75.75 0 01-.84 0 31.508 31.508 0 00-2.08-1.287V9.394c0-.244.116-.463.302-.592a35.504 35.504 0 013.305-2.033.75.75 0 00-.714-1.319 37 37 0 00-3.446 2.12A2.216 2.216 0 006 9.393v.38a31.293 31.293 0 00-4.28-1.746.75.75 0 01-.254-1.285 41.059 41.059 0 018.198-5.424zM6 11.459a29.848 29.848 0 00-2.455-1.158 41.029 41.029 0 00-.39 3.114.75.75 0 00.419.74c.528.256 1.046.53 1.554.82-.21.324-.455.63-.739.914a.75.75 0 101.06 1.06c.37-.369.69-.77.96-1.193a26.61 26.61 0 013.095 2.348.75.75 0 00.992 0 26.547 26.547 0 015.93-3.95.75.75 0 00.42-.739 41.053 41.053 0 00-.39-3.114 29.925 29.925 0 00-5.199 2.801 2.25 2.25 0 01-2.514 0c-.41-.275-.826-.541-1.25-.797a6.985 6.985 0 01-1.084 3.45 26.503 26.503 0 00-1.281-.78A5.487 5.487 0 006 12v-.54z" clip-rule="evenodd" />
+</svg>
+
+        <div class="align-left text-2xl font-semibold text-black dark:text-white">Tech Student</div>
+      </div>
+      <div class="flex-grow max-w-[1230px] text-lg font-medium text-slate-600 dark:text-slate-400 mb-4 pt-3">
+        I am a student currently attending my final year at <a class="font-semibold text-gray-800 dark:text-slate-300">Tech School</a>.
+    I major as a Multimedia Specialist which has given me experience in a plethora of apps.
+      </div>
+        <div class="flex-grow max-w-[1230px] text-lg font-medium text-slate-600 dark:text-slate-400 mb-4">
+          I use what I learn to create new projects quite often, so check what I have up available now.
+      </div>
+      <div class="flex-grow flex-col flex w-full max-w-[1230px] gap-y-4 pt-4">
+        <a href="https://discord.gg/WXcdtQK" type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="w-full h-12 text-center justify-center transition ease-in-out delay-50 hover:scale-105 rounded-md text-black dark:text-white hover:text-white hover:bg-gradient-to-r bg-blue-100 dark:bg-slate-700 hover:from-blue-500 hover:to-sky-500 items-center flex">
+          <div class="font-semibold sm:font-medium">See my work</div>
+        </a> 
+      </div>
+    </div>
+  </div>
+</div>
+
+ <div class="flex px-7 md:px-20">
+<hr class="flex-grow max-w-[1230px] h-1 mx-auto bg-slate-200 border-0 rounded mb-10 dark:bg-slate-700">
+</div>
 
 </div>
 </template>
