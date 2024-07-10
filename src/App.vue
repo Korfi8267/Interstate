@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white dark:bg-slate-900 min-h-screen">
+  <div class="bg-white dark:bg-neutral-900 min-h-screen">
     <nav-header/>
     <transition 
       mode="out-in" 
@@ -21,4 +21,5 @@ export default {
     NavHeader,
   }
 }
+
 </script>
