@@ -56,21 +56,20 @@
     </div>
 </div>
 
-<div class="flex flex-row items-center justify-left px-7 md:px-20">
-<ul role="list" class="marker:text-lg marker:text-blue-500 marker:dark:text-blue-700 list-disc pl-5 space-y-3 text-gray-400">
-  <li>5 cups chopped Porcini mushrooms</li>
-  <li>1/2 cup of olive oil</li>
-  <li>3lb of celery</li>
-</ul>
-</div>
-<div class="max-w-lg mx-auto p-8">
-  <details class="open:bg-white dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg" open>
-    <summary class="text-sm leading-6 text-slate-900 dark:text-white font-semibold select-none">
-      Why do they call it Ovaltine?
+<div class="mx-auto max-w-[1390px] pt-4 px-7 md:px-20">
+  <details closed>
+    <summary class="text-xl leading-6 text-slate-900 dark:text-white font-semibold select-none">
+      This is a cool header. Short and sweet.
     </summary>
-    <div class="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400">
-      <p>The mug is round. The jar is round. They should call it Roundtine.</p>
+    <div class="mt-3 text-md leading-6 text-slate-600 dark:text-gray-400">
+      <p>Woah!!! Some awesome info!!! I don't really know what to put here.</p>
     </div>
+    <br/>
+    <ul role="list" class="marker:text-lg marker:text-blue-500 marker:dark:text-blue-700 list-disc pl-5 space-y-3 text-gray-400">
+  <li>Some random list</li>
+  <li>la la la la la</li>
+  <li>Hi</li>
+</ul>
   </details>
 </div>
 
