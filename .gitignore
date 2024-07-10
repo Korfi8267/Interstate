@@ -21,3 +21,7 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+src/components/NavHeader copy 2.vue
+src/views/Home copy 2.vue
+src/views/Packages copy.vue
+src/views/Portfolio copy.vue
